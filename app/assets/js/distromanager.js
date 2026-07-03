@@ -2,9 +2,8 @@ const { DistributionAPI } = require('helios-core/common')
 
 const ConfigManager = require('./configmanager')
 
-// Vault-Tec distribution server
-exports.REMOTE_DISTRO_URL = 'https://raw.githubusercontent.com/qurydem-lab/VaultTec-Launcher/master/dist/distribution.json'
-// DEV: exports.REMOTE_DISTRO_URL = 'http://localhost:8080/distribution.json'
+// Vault-Tec distribution server (playit.gg tunnel)
+exports.REMOTE_DISTRO_URL = 'http://mickey-reacquire.with.playit.plus:1571/distribution.json'
 
 const api = new DistributionAPI(
     ConfigManager.getLauncherDirectory(),
