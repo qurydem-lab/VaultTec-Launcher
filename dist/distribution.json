@@ -1,36 +1,3359 @@
 {
-    "version": "1.0.0",
-    "discord": {
-        "clientId": "1234567890123456789",
-        "smallImageText": "Vault-Tec",
-        "smallImageKey": "seal-circle"
-    },
-    "rss": "https://github.com/qurydem-lab/VaultTec-Launcher/releases.atom",
-    "servers": [
-        {
-            "id": "vault_tec_minecolonies",
-            "name": "Vault-Tec: MineColonies Dimensional Adventure",
-            "description": "MineColonies Dimensional Adventure 1.21.1 — build your colony, explore dimensions!",
-            "icon": "https://raw.githubusercontent.com/qurydem-lab/VaultTec-Launcher/master/app/assets/images/SealCircle.png",
-            "version": "1.2.3",
-            "address": "vault-tec.playit.plus",
-            "minecraftVersion": "1.21.1",
-            "discord": {
-                "shortId": "VaultTec",
-                "largeImageText": "MineColonies Dimensional Adventure",
-                "largeImageKey": "server-vault-tec"
-            },
-            "mainServer": true,
-            "autoconnect": true,
-            "javaOptions": {
-                "supported": ">=21",
-                "suggestedMajor": 21,
-                "ram": {
-                    "recommended": 6144,
-                    "minimum": 4096
-                }
-            },
-            "modules": []
+  "version": "1.0.0",
+  "rss": "https://github.com/qurydem-lab/VaultTec-Launcher/releases.atom",
+  "discord": {
+    "clientId": "1234567890123456789",
+    "smallImageText": "Vault-Tec Launcher",
+    "smallImageKey": "seal-circle"
+  },
+  "servers": [
+    {
+      "id": "vault_tec_minecolonies-1.21.1",
+      "name": "Vault-Tec: MineColonies Dimensional Adventure",
+      "description": "MineColonies Dimensional Adventure 1.21.1",
+      "icon": "https://raw.githubusercontent.com/qurydem-lab/VaultTec-Launcher/master/app/assets/images/SealCircle.png",
+      "version": "1.21.1-1.2.3",
+      "address": "vault-tec.playit.plus",
+      "minecraftVersion": "1.21.1",
+      "discord": {
+        "shortId": "VaultTec",
+        "largeImageText": "MineColonies DA",
+        "largeImageKey": "server-vault-tec"
+      },
+      "mainServer": true,
+      "autoconnect": true,
+      "javaOptions": {
+        "supported": ">=21",
+        "suggestedMajor": 21,
+        "ram": {
+          "recommended": 6144,
+          "minimum": 4096
         }
-    ]
+      },
+      "modules": [
+        {
+          "id": "AE2-Things-1.4.2-beta.jar",
+          "name": "AE2-Things-1.4.2-beta.jar",
+          "type": "File",
+          "artifact": {
+            "size": 66034,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/AE2-Things-1.4.2-beta.jar",
+            "MD5": "476c2b602e88546a5319c240daf05d12",
+            "path": "mods/AE2-Things-1.4.2-beta.jar"
+          }
+        },
+        {
+          "id": "AE2MEGAThings-1.21.1-2.0.4.jar",
+          "name": "AE2MEGAThings-1.21.1-2.0.4.jar",
+          "type": "File",
+          "artifact": {
+            "size": 183840,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/AE2MEGAThings-1.21.1-2.0.4.jar",
+            "MD5": "8f33f92728dc23f3b039ae61f78ecc9d",
+            "path": "mods/AE2MEGAThings-1.21.1-2.0.4.jar"
+          }
+        },
+        {
+          "id": "AdvancedAE-1.6.11-1.21.1.jar",
+          "name": "AdvancedAE-1.6.11-1.21.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 4797100,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/AdvancedAE-1.6.11-1.21.1.jar",
+            "MD5": "bc655692d4ec327555d7a1f42af12024",
+            "path": "mods/AdvancedAE-1.6.11-1.21.1.jar"
+          }
+        },
+        {
+          "id": "AdvancementPlaques-1.21.1-neoforge-1.6.8.jar",
+          "name": "AdvancementPlaques-1.21.1-neoforge-1.6.8.jar",
+          "type": "File",
+          "artifact": {
+            "size": 195730,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/AdvancementPlaques-1.21.1-neoforge-1.6.8.jar",
+            "MD5": "ad6dc60871b30f6d69f25c0ec7d79871",
+            "path": "mods/AdvancementPlaques-1.21.1-neoforge-1.6.8.jar"
+          }
+        },
+        {
+          "id": "AppliedFlux-1.21-2.1.5-neoforge.jar",
+          "name": "AppliedFlux-1.21-2.1.5-neoforge.jar",
+          "type": "File",
+          "artifact": {
+            "size": 345117,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/AppliedFlux-1.21-2.1.5-neoforge.jar",
+            "MD5": "aced1a1af01d7411772634aa13826a18",
+            "path": "mods/AppliedFlux-1.21-2.1.5-neoforge.jar"
+          }
+        },
+        {
+          "id": "BEB-NeoForge-1.21-6.0.0.jar",
+          "name": "BEB-NeoForge-1.21-6.0.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1772579,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/BEB-NeoForge-1.21-6.0.0.jar",
+            "MD5": "a2a7d976cea32cbb7e581440f78a8fb1",
+            "path": "mods/BEB-NeoForge-1.21-6.0.0.jar"
+          }
+        },
+        {
+          "id": "BiomesOPlenty-neoforge-1.21.1-21.1.0.14.jar",
+          "name": "BiomesOPlenty-neoforge-1.21.1-21.1.0.14.jar",
+          "type": "File",
+          "artifact": {
+            "size": 22338157,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/BiomesOPlenty-neoforge-1.21.1-21.1.0.14.jar",
+            "MD5": "abb725a66aaac6c9ed4b93db25380aa8",
+            "path": "mods/BiomesOPlenty-neoforge-1.21.1-21.1.0.14.jar"
+          }
+        },
+        {
+          "id": "BlockBox-1.21.1-0.1.3.jar",
+          "name": "BlockBox-1.21.1-0.1.3.jar",
+          "type": "File",
+          "artifact": {
+            "size": 909114,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/BlockBox-1.21.1-0.1.3.jar",
+            "MD5": "37f5360ca9cc6fab4dbe4b8bf4c26e3c",
+            "path": "mods/BlockBox-1.21.1-0.1.3.jar"
+          }
+        },
+        {
+          "id": "BrandonsCore-1.21.1-3.2.1.309.jar",
+          "name": "BrandonsCore-1.21.1-3.2.1.309.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1385131,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/BrandonsCore-1.21.1-3.2.1.309.jar",
+            "MD5": "f75da70b0645401f9af389301f883af6",
+            "path": "mods/BrandonsCore-1.21.1-3.2.1.309.jar"
+          }
+        },
+        {
+          "id": "Byzantine-1.21.1-51.jar",
+          "name": "Byzantine-1.21.1-51.jar",
+          "type": "File",
+          "artifact": {
+            "size": 16077350,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/Byzantine-1.21.1-51.jar",
+            "MD5": "2037cb328dc5ba358d185a401bae73ca",
+            "path": "mods/Byzantine-1.21.1-51.jar"
+          }
+        },
+        {
+          "id": "Clumps-neoforge-1.21.1-19.0.0.1.jar",
+          "name": "Clumps-neoforge-1.21.1-19.0.0.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 18382,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/Clumps-neoforge-1.21.1-19.0.0.1.jar",
+            "MD5": "8b42a9d7a72bde90fa061d17e2859e7b",
+            "path": "mods/Clumps-neoforge-1.21.1-19.0.0.1.jar"
+          }
+        },
+        {
+          "id": "CodeChickenLib-1.21.1-4.6.1.526.jar",
+          "name": "CodeChickenLib-1.21.1-4.6.1.526.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1538347,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/CodeChickenLib-1.21.1-4.6.1.526.jar",
+            "MD5": "cb6cc54c315e9e11278a0542473d5f2f",
+            "path": "mods/CodeChickenLib-1.21.1-4.6.1.526.jar"
+          }
+        },
+        {
+          "id": "ColonyRank-1.21.1-1.1.1.jar",
+          "name": "ColonyRank-1.21.1-1.1.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 57080,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/ColonyRank-1.21.1-1.1.1.jar",
+            "MD5": "6c5a16519f1bc9dec235f46dea8c7dc6",
+            "path": "mods/ColonyRank-1.21.1-1.1.1.jar"
+          }
+        },
+        {
+          "id": "ConstructionSticks-1.21.1-1.4.1.jar",
+          "name": "ConstructionSticks-1.21.1-1.4.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 264441,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/ConstructionSticks-1.21.1-1.4.1.jar",
+            "MD5": "055a18b3334f7f0ee84d4873887f766b",
+            "path": "mods/ConstructionSticks-1.21.1-1.4.1.jar"
+          }
+        },
+        {
+          "id": "Corgilib-NeoForge-1.21.1-5.0.0.9.jar",
+          "name": "Corgilib-NeoForge-1.21.1-5.0.0.9.jar",
+          "type": "File",
+          "artifact": {
+            "size": 309763,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/Corgilib-NeoForge-1.21.1-5.0.0.9.jar",
+            "MD5": "c03b02005b735e2221438a5346d8c77f",
+            "path": "mods/Corgilib-NeoForge-1.21.1-5.0.0.9.jar"
+          }
+        },
+        {
+          "id": "CraftTweaker-neoforge-1.21.1-21.0.38.jar",
+          "name": "CraftTweaker-neoforge-1.21.1-21.0.38.jar",
+          "type": "File",
+          "artifact": {
+            "size": 3465718,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/CraftTweaker-neoforge-1.21.1-21.0.38.jar",
+            "MD5": "e17031b22a4b02eae300b5a1ee140d40",
+            "path": "mods/CraftTweaker-neoforge-1.21.1-21.0.38.jar"
+          }
+        },
+        {
+          "id": "CreativeCore_NEOFORGE_v2.13.41_mc1.21.1.jar",
+          "name": "CreativeCore_NEOFORGE_v2.13.41_mc1.21.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1218640,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/CreativeCore_NEOFORGE_v2.13.41_mc1.21.1.jar",
+            "MD5": "610093f21cea33b34f911bca97aa294f",
+            "path": "mods/CreativeCore_NEOFORGE_v2.13.41_mc1.21.1.jar"
+          }
+        },
+        {
+          "id": "CreeperOverhaul-neoforge-1.21.1-4.0.6.jar",
+          "name": "CreeperOverhaul-neoforge-1.21.1-4.0.6.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1185088,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/CreeperOverhaul-neoforge-1.21.1-4.0.6.jar",
+            "MD5": "fba4de114511671aa0c4a10f34268faa",
+            "path": "mods/CreeperOverhaul-neoforge-1.21.1-4.0.6.jar"
+          }
+        },
+        {
+          "id": "Cucumber-1.21.1-8.0.16.jar",
+          "name": "Cucumber-1.21.1-8.0.16.jar",
+          "type": "File",
+          "artifact": {
+            "size": 275588,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/Cucumber-1.21.1-8.0.16.jar",
+            "MD5": "3676382650b6ad5914dce9e3c451c9f0",
+            "path": "mods/Cucumber-1.21.1-8.0.16.jar"
+          }
+        },
+        {
+          "id": "Cyan_ancient_city-4.8.1.jar",
+          "name": "Cyan_ancient_city-4.8.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 12960360,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/Cyan_ancient_city-4.8.1.jar",
+            "MD5": "9bcb289bb286939173d4402017e267e0",
+            "path": "mods/Cyan_ancient_city-4.8.1.jar"
+          }
+        },
+        {
+          "id": "Cyberspace 4.1.1 (NF1.21.1).jar",
+          "name": "Cyberspace 4.1.1 (NF1.21.1).jar",
+          "type": "File",
+          "artifact": {
+            "size": 3460072,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/Cyberspace%204.1.1%20(NF1.21.1).jar",
+            "MD5": "405afc146ac823aef445c415f95acab2",
+            "path": "mods/Cyberspace 4.1.1 (NF1.21.1).jar"
+          }
+        },
+        {
+          "id": "DireColonies-3.2.0.jar",
+          "name": "DireColonies-3.2.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 2812438,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/DireColonies-3.2.0.jar",
+            "MD5": "e8644d8f9c968b057724bb6acccf6545",
+            "path": "mods/DireColonies-3.2.0.jar"
+          }
+        },
+        {
+          "id": "Draconic-Evolution-1.21.1-3.1.4.632.jar",
+          "name": "Draconic-Evolution-1.21.1-3.1.4.632.jar",
+          "type": "File",
+          "artifact": {
+            "size": 6045942,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/Draconic-Evolution-1.21.1-3.1.4.632.jar",
+            "MD5": "ab09f67a3c663245d9fb9992b2c03c71",
+            "path": "mods/Draconic-Evolution-1.21.1-3.1.4.632.jar"
+          }
+        },
+        {
+          "id": "DustyDecorations_1.21.1Neoforge_V1.13.jar",
+          "name": "DustyDecorations_1.21.1Neoforge_V1.13.jar",
+          "type": "File",
+          "artifact": {
+            "size": 4977657,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/DustyDecorations_1.21.1Neoforge_V1.13.jar",
+            "MD5": "86f066fc09f4500ec7fc6f8c040a1450",
+            "path": "mods/DustyDecorations_1.21.1Neoforge_V1.13.jar"
+          }
+        },
+        {
+          "id": "EpheroLib-1.21.1-NEO-FORGE-1.2.0.jar",
+          "name": "EpheroLib-1.21.1-NEO-FORGE-1.2.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 746263,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/EpheroLib-1.21.1-NEO-FORGE-1.2.0.jar",
+            "MD5": "d15a6ebe7f3011625507d610d80c039c",
+            "path": "mods/EpheroLib-1.21.1-NEO-FORGE-1.2.0.jar"
+          }
+        },
+        {
+          "id": "ExplorersCompass-1.21.1-3.4.0-neoforge.jar",
+          "name": "ExplorersCompass-1.21.1-3.4.0-neoforge.jar",
+          "type": "File",
+          "artifact": {
+            "size": 174668,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/ExplorersCompass-1.21.1-3.4.0-neoforge.jar",
+            "MD5": "ae974c3bc9992e3998931c9f812e643c",
+            "path": "mods/ExplorersCompass-1.21.1-3.4.0-neoforge.jar"
+          }
+        },
+        {
+          "id": "ExtendedAE-1.21-2.2.33-neoforge.jar",
+          "name": "ExtendedAE-1.21-2.2.33-neoforge.jar",
+          "type": "File",
+          "artifact": {
+            "size": 5573972,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/ExtendedAE-1.21-2.2.33-neoforge.jar",
+            "MD5": "5e0b6446037fa65f8bf4847f50cc6269",
+            "path": "mods/ExtendedAE-1.21-2.2.33-neoforge.jar"
+          }
+        },
+        {
+          "id": "ExtremeReactors2-1.21.1-2.4.28.jar",
+          "name": "ExtremeReactors2-1.21.1-2.4.28.jar",
+          "type": "File",
+          "artifact": {
+            "size": 2554779,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/ExtremeReactors2-1.21.1-2.4.28.jar",
+            "MD5": "598008e487f6dae196a4d3c538d6333a",
+            "path": "mods/ExtremeReactors2-1.21.1-2.4.28.jar"
+          }
+        },
+        {
+          "id": "FarmersDelight-1.21.1-1.3.2.jar",
+          "name": "FarmersDelight-1.21.1-1.3.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 3163042,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/FarmersDelight-1.21.1-1.3.2.jar",
+            "MD5": "60186e1b39385ecae70ff2f194ef7c32",
+            "path": "mods/FarmersDelight-1.21.1-1.3.2.jar"
+          }
+        },
+        {
+          "id": "FastFurnace-1.21.1-9.0.1.jar",
+          "name": "FastFurnace-1.21.1-9.0.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 4623,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/FastFurnace-1.21.1-9.0.1.jar",
+            "MD5": "cec1ab0b1daaf7c6eb985ea14f431ca1",
+            "path": "mods/FastFurnace-1.21.1-9.0.1.jar"
+          }
+        },
+        {
+          "id": "FluxNetworks-1.21.1-8.0.0.jar",
+          "name": "FluxNetworks-1.21.1-8.0.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 535938,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/FluxNetworks-1.21.1-8.0.0.jar",
+            "MD5": "7ebb097deb1cfb13f3abcf87c17c8ba4",
+            "path": "mods/FluxNetworks-1.21.1-8.0.0.jar"
+          }
+        },
+        {
+          "id": "FramedBlocks-10.6.0.jar",
+          "name": "FramedBlocks-10.6.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 4306442,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/FramedBlocks-10.6.0.jar",
+            "MD5": "d0389f3d426f10e7ea340fa899ca7b08",
+            "path": "mods/FramedBlocks-10.6.0.jar"
+          }
+        },
+        {
+          "id": "GlitchCore-neoforge-1.21.1-2.1.0.2.jar",
+          "name": "GlitchCore-neoforge-1.21.1-2.1.0.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 90717,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/GlitchCore-neoforge-1.21.1-2.1.0.2.jar",
+            "MD5": "3bdf763d2461aa2731ed3515e0761d2f",
+            "path": "mods/GlitchCore-neoforge-1.21.1-2.1.0.2.jar"
+          }
+        },
+        {
+          "id": "Glodium-1.21-2.2-neoforge.jar",
+          "name": "Glodium-1.21-2.2-neoforge.jar",
+          "type": "File",
+          "artifact": {
+            "size": 61377,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/Glodium-1.21-2.2-neoforge.jar",
+            "MD5": "726c1598b933b33a413fd994e12fd31c",
+            "path": "mods/Glodium-1.21-2.2-neoforge.jar"
+          }
+        },
+        {
+          "id": "Halcyon-v0.3.6+tides-of-phenua.jar",
+          "name": "Halcyon-v0.3.6+tides-of-phenua.jar",
+          "type": "File",
+          "artifact": {
+            "size": 15145874,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/Halcyon-v0.3.6+tides-of-phenua.jar",
+            "MD5": "e9dd556dee51806b85cb350a80582740",
+            "path": "mods/Halcyon-v0.3.6+tides-of-phenua.jar"
+          }
+        },
+        {
+          "id": "HostileNeuralNetworks-1.21.1-6.4.2.jar",
+          "name": "HostileNeuralNetworks-1.21.1-6.4.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 477840,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/HostileNeuralNetworks-1.21.1-6.4.2.jar",
+            "MD5": "2a6b6ff4228f0fb2303792afcba97d3a",
+            "path": "mods/HostileNeuralNetworks-1.21.1-6.4.2.jar"
+          }
+        },
+        {
+          "id": "Iceberg-1.21.1-neoforge-1.3.2.jar",
+          "name": "Iceberg-1.21.1-neoforge-1.3.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 213853,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/Iceberg-1.21.1-neoforge-1.3.2.jar",
+            "MD5": "68473a4ca9a827669c13d3855c8dc0e2",
+            "path": "mods/Iceberg-1.21.1-neoforge-1.3.2.jar"
+          }
+        },
+        {
+          "id": "Incendium_1.21.x_v5.4.4.jar",
+          "name": "Incendium_1.21.x_v5.4.4.jar",
+          "type": "File",
+          "artifact": {
+            "size": 4267528,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/Incendium_1.21.x_v5.4.4.jar",
+            "MD5": "37793d374c89e38074bde664fe36df59",
+            "path": "mods/Incendium_1.21.x_v5.4.4.jar"
+          }
+        },
+        {
+          "id": "Jade-1.21.1-NeoForge-15.10.5.jar",
+          "name": "Jade-1.21.1-NeoForge-15.10.5.jar",
+          "type": "File",
+          "artifact": {
+            "size": 725742,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/Jade-1.21.1-NeoForge-15.10.5.jar",
+            "MD5": "80f9186d25b02ebbfa5773416f5da410",
+            "path": "mods/Jade-1.21.1-NeoForge-15.10.5.jar"
+          }
+        },
+        {
+          "id": "JadeAddons-1.21.1-NeoForge-6.1.0.jar",
+          "name": "JadeAddons-1.21.1-NeoForge-6.1.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 74419,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/JadeAddons-1.21.1-NeoForge-6.1.0.jar",
+            "MD5": "81f8035bc735c75463add09f923ad372",
+            "path": "mods/JadeAddons-1.21.1-NeoForge-6.1.0.jar"
+          }
+        },
+        {
+          "id": "Likely_a_Pack_1.20.1_1.8.jar",
+          "name": "Likely_a_Pack_1.20.1_1.8.jar",
+          "type": "File",
+          "artifact": {
+            "size": 11793946,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/Likely_a_Pack_1.20.1_1.8.jar",
+            "MD5": "c918100bdd576da40f4f9cec3be838e7",
+            "path": "mods/Likely_a_Pack_1.20.1_1.8.jar"
+          }
+        },
+        {
+          "id": "MineColonies_SoLCarrot-1.21.1-1.3.jar",
+          "name": "MineColonies_SoLCarrot-1.21.1-1.3.jar",
+          "type": "File",
+          "artifact": {
+            "size": 78881,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/MineColonies_SoLCarrot-1.21.1-1.3.jar",
+            "MD5": "4cf2783afe4876f8d1c758141a63e759",
+            "path": "mods/MineColonies_SoLCarrot-1.21.1-1.3.jar"
+          }
+        },
+        {
+          "id": "ModularHubStylePack-1-21-1-v1.1.jar",
+          "name": "ModularHubStylePack-1-21-1-v1.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 415393,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/ModularHubStylePack-1-21-1-v1.1.jar",
+            "MD5": "47b8791f2255d969b0325eb611db1d3e",
+            "path": "mods/ModularHubStylePack-1-21-1-v1.1.jar"
+          }
+        },
+        {
+          "id": "MoreVillagers-Re-1.21.1-neoforge-1.25.12.4.jar",
+          "name": "MoreVillagers-Re-1.21.1-neoforge-1.25.12.4.jar",
+          "type": "File",
+          "artifact": {
+            "size": 376197,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/MoreVillagers-Re-1.21.1-neoforge-1.25.12.4.jar",
+            "MD5": "853341f7af90192ebcd909989f31cbb3",
+            "path": "mods/MoreVillagers-Re-1.21.1-neoforge-1.25.12.4.jar"
+          }
+        },
+        {
+          "id": "MyNethersDelight-1.21.1-1.10.2.jar",
+          "name": "MyNethersDelight-1.21.1-1.10.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 825875,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/MyNethersDelight-1.21.1-1.10.2.jar",
+            "MD5": "dec2b03b6f32739a2f9788fb2cb002ba",
+            "path": "mods/MyNethersDelight-1.21.1-1.10.2.jar"
+          }
+        },
+        {
+          "id": "NaturesCompass-1.21.1-3.4.0-neoforge.jar",
+          "name": "NaturesCompass-1.21.1-3.4.0-neoforge.jar",
+          "type": "File",
+          "artifact": {
+            "size": 224657,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/NaturesCompass-1.21.1-3.4.0-neoforge.jar",
+            "MD5": "1cb785707bea10cfc5018fe37247963c",
+            "path": "mods/NaturesCompass-1.21.1-3.4.0-neoforge.jar"
+          }
+        },
+        {
+          "id": "Night Lights NeoForge v1.2.0 [1.21.1].jar",
+          "name": "Night Lights NeoForge v1.2.0 [1.21.1].jar",
+          "type": "File",
+          "artifact": {
+            "size": 408703,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/Night%20Lights%20NeoForge%20v1.2.0%20[1.21.1].jar",
+            "MD5": "223d4f10be22dabc45b9acabc2c1476a",
+            "path": "mods/Night Lights NeoForge v1.2.0 [1.21.1].jar"
+          }
+        },
+        {
+          "id": "NoChatReports-NEOFORGE-1.21.1-v2.9.1.jar",
+          "name": "NoChatReports-NEOFORGE-1.21.1-v2.9.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 306668,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/NoChatReports-NEOFORGE-1.21.1-v2.9.1.jar",
+            "MD5": "07496752e6b64dd33d68cd5166818402",
+            "path": "mods/NoChatReports-NEOFORGE-1.21.1-v2.9.1.jar"
+          }
+        },
+        {
+          "id": "Not Enough Recipe Book-NEOFORGE-0.4.3+1.21.jar",
+          "name": "Not Enough Recipe Book-NEOFORGE-0.4.3+1.21.jar",
+          "type": "File",
+          "artifact": {
+            "size": 23830,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/Not%20Enough%20Recipe%20Book-NEOFORGE-0.4.3+1.21.jar",
+            "MD5": "c68639619ef74bba9384b1b7ae421040",
+            "path": "mods/Not Enough Recipe Book-NEOFORGE-0.4.3+1.21.jar"
+          }
+        },
+        {
+          "id": "OctoLib-NEOFORGE-0.6.2+1.21.jar",
+          "name": "OctoLib-NEOFORGE-0.6.2+1.21.jar",
+          "type": "File",
+          "artifact": {
+            "size": 544378,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/OctoLib-NEOFORGE-0.6.2+1.21.jar",
+            "MD5": "f730e04600b6cd66ddac685362a9c9f3",
+            "path": "mods/OctoLib-NEOFORGE-0.6.2+1.21.jar"
+          }
+        },
+        {
+          "id": "Oh-The-Biomes-Weve-Gone-NeoForge-2.6.0.jar",
+          "name": "Oh-The-Biomes-Weve-Gone-NeoForge-2.6.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 20484967,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/Oh-The-Biomes-Weve-Gone-NeoForge-2.6.0.jar",
+            "MD5": "6576211fdac34b5b288850144e1547a7",
+            "path": "mods/Oh-The-Biomes-Weve-Gone-NeoForge-2.6.0.jar"
+          }
+        },
+        {
+          "id": "Oh-The-Trees-Youll-Grow-neoforge-1.21.1-5.3.2.jar",
+          "name": "Oh-The-Trees-Youll-Grow-neoforge-1.21.1-5.3.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 167431,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/Oh-The-Trees-Youll-Grow-neoforge-1.21.1-5.3.2.jar",
+            "MD5": "d74ee8913f910eda8b20c83bf61f63b6",
+            "path": "mods/Oh-The-Trees-Youll-Grow-neoforge-1.21.1-5.3.2.jar"
+          }
+        },
+        {
+          "id": "OreBerries-Replanted-1.21.1-0.9.7.jar",
+          "name": "OreBerries-Replanted-1.21.1-0.9.7.jar",
+          "type": "File",
+          "artifact": {
+            "size": 375690,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/OreBerries-Replanted-1.21.1-0.9.7.jar",
+            "MD5": "cccaabe8ee3f1818d9f7bd7873f5a8bc",
+            "path": "mods/OreBerries-Replanted-1.21.1-0.9.7.jar"
+          }
+        },
+        {
+          "id": "Patchouli-1.21.1-93-NEOFORGE.jar",
+          "name": "Patchouli-1.21.1-93-NEOFORGE.jar",
+          "type": "File",
+          "artifact": {
+            "size": 646777,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/Patchouli-1.21.1-93-NEOFORGE.jar",
+            "MD5": "8178d65cd07dd7a646446729058ae2bf",
+            "path": "mods/Patchouli-1.21.1-93-NEOFORGE.jar"
+          }
+        },
+        {
+          "id": "Paxi-1.21.1-NeoForge-5.1.3.jar",
+          "name": "Paxi-1.21.1-NeoForge-5.1.3.jar",
+          "type": "File",
+          "artifact": {
+            "size": 102980,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/Paxi-1.21.1-NeoForge-5.1.3.jar",
+            "MD5": "c9d84fe87e9ec88825eeb3b119393125",
+            "path": "mods/Paxi-1.21.1-NeoForge-5.1.3.jar"
+          }
+        },
+        {
+          "id": "Placebo-1.21.1-9.9.1.jar",
+          "name": "Placebo-1.21.1-9.9.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 324056,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/Placebo-1.21.1-9.9.1.jar",
+            "MD5": "cc725fc5406d3af893484cfbba06f6ed",
+            "path": "mods/Placebo-1.21.1-9.9.1.jar"
+          }
+        },
+        {
+          "id": "Platform-neoforge-1.21.1-1.3.3.jar",
+          "name": "Platform-neoforge-1.21.1-1.3.3.jar",
+          "type": "File",
+          "artifact": {
+            "size": 489341,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/Platform-neoforge-1.21.1-1.3.3.jar",
+            "MD5": "e20292cd105330fffaa36c65adfc4dcd",
+            "path": "mods/Platform-neoforge-1.21.1-1.3.3.jar"
+          }
+        },
+        {
+          "id": "PortableCraftingTable-neoforge-1.21.1-3.2.6.jar",
+          "name": "PortableCraftingTable-neoforge-1.21.1-3.2.6.jar",
+          "type": "File",
+          "artifact": {
+            "size": 13623,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/PortableCraftingTable-neoforge-1.21.1-3.2.6.jar",
+            "MD5": "9b1532835f7c42205c26a989b38c46dc",
+            "path": "mods/PortableCraftingTable-neoforge-1.21.1-3.2.6.jar"
+          }
+        },
+        {
+          "id": "Powah-6.2.10.jar",
+          "name": "Powah-6.2.10.jar",
+          "type": "File",
+          "artifact": {
+            "size": 2737991,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/Powah-6.2.10.jar",
+            "MD5": "38968f736f025bf002a6b8d52469f3c0",
+            "path": "mods/Powah-6.2.10.jar"
+          }
+        },
+        {
+          "id": "Schematic_Builder_Autoscanner-1.21.1-1.1.jar",
+          "name": "Schematic_Builder_Autoscanner-1.21.1-1.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 234851,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/Schematic_Builder_Autoscanner-1.21.1-1.1.jar",
+            "MD5": "e58ebe99a21b048e4e1aebd2e665545f",
+            "path": "mods/Schematic_Builder_Autoscanner-1.21.1-1.1.jar"
+          }
+        },
+        {
+          "id": "Skarts-Decorations-0.3.5.2-(1.21.1).jar",
+          "name": "Skarts-Decorations-0.3.5.2-(1.21.1).jar",
+          "type": "File",
+          "artifact": {
+            "size": 8095475,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/Skarts-Decorations-0.3.5.2-(1.21.1).jar",
+            "MD5": "e4f9c7d192dbca1b23b2ad73c6364649",
+            "path": "mods/Skarts-Decorations-0.3.5.2-(1.21.1).jar"
+          }
+        },
+        {
+          "id": "SmartBrainLib-neoforge-1.21.1-1.16.11.jar",
+          "name": "SmartBrainLib-neoforge-1.21.1-1.16.11.jar",
+          "type": "File",
+          "artifact": {
+            "size": 391053,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/SmartBrainLib-neoforge-1.21.1-1.16.11.jar",
+            "MD5": "252a7712a2c5d020d673f276dba280ee",
+            "path": "mods/SmartBrainLib-neoforge-1.21.1-1.16.11.jar"
+          }
+        },
+        {
+          "id": "Stargate Journey-1.21.1-0.6.44.jar",
+          "name": "Stargate Journey-1.21.1-0.6.44.jar",
+          "type": "File",
+          "artifact": {
+            "size": 6407904,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/Stargate%20Journey-1.21.1-0.6.44.jar",
+            "MD5": "8599e8451da40429c4b3e1c9d05dd7fa",
+            "path": "mods/Stargate Journey-1.21.1-0.6.44.jar"
+          }
+        },
+        {
+          "id": "TerraBlender-neoforge-1.21.1-4.1.0.8.jar",
+          "name": "TerraBlender-neoforge-1.21.1-4.1.0.8.jar",
+          "type": "File",
+          "artifact": {
+            "size": 120364,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/TerraBlender-neoforge-1.21.1-4.1.0.8.jar",
+            "MD5": "9510cef4ca24d7f6bc3144dbf6693f7d",
+            "path": "mods/TerraBlender-neoforge-1.21.1-4.1.0.8.jar"
+          }
+        },
+        {
+          "id": "Tinted Campfires-neoforge-1.21.1-1.0.4.jar",
+          "name": "Tinted Campfires-neoforge-1.21.1-1.0.4.jar",
+          "type": "File",
+          "artifact": {
+            "size": 400843,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/Tinted%20Campfires-neoforge-1.21.1-1.0.4.jar",
+            "MD5": "06ce2ae8a14f95a02ed5d31a2a4f1c7e",
+            "path": "mods/Tinted Campfires-neoforge-1.21.1-1.0.4.jar"
+          }
+        },
+        {
+          "id": "Tropicraft-9.8.1.jar",
+          "name": "Tropicraft-9.8.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 19480844,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/Tropicraft-9.8.1.jar",
+            "MD5": "f2b5fdf3525fa218cfce4b131f2b74d9",
+            "path": "mods/Tropicraft-9.8.1.jar"
+          }
+        },
+        {
+          "id": "VanillaBackport-neoforge-1.21.1-1.1.7.10.jar",
+          "name": "VanillaBackport-neoforge-1.21.1-1.1.7.10.jar",
+          "type": "File",
+          "artifact": {
+            "size": 54902084,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/VanillaBackport-neoforge-1.21.1-1.1.7.10.jar",
+            "MD5": "84ce84dbdec267fc87aa11b40a1aa3e2",
+            "path": "mods/VanillaBackport-neoforge-1.21.1-1.1.7.10.jar"
+          }
+        },
+        {
+          "id": "Villager-API-1.21.1-neoforge-1.26.1.3.jar",
+          "name": "Villager-API-1.21.1-neoforge-1.26.1.3.jar",
+          "type": "File",
+          "artifact": {
+            "size": 132892,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/Villager-API-1.21.1-neoforge-1.26.1.3.jar",
+            "MD5": "b6588a8c6ff8f5e69ea382d770420c89",
+            "path": "mods/Villager-API-1.21.1-neoforge-1.26.1.3.jar"
+          }
+        },
+        {
+          "id": "YungsApi-1.21.1-NeoForge-5.1.6.jar",
+          "name": "YungsApi-1.21.1-NeoForge-5.1.6.jar",
+          "type": "File",
+          "artifact": {
+            "size": 388678,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/YungsApi-1.21.1-NeoForge-5.1.6.jar",
+            "MD5": "4a27558e0a2fd72512b051525c9abeaf",
+            "path": "mods/YungsApi-1.21.1-NeoForge-5.1.6.jar"
+          }
+        },
+        {
+          "id": "ZeroCore2-1.21.1-2.4.21.jar",
+          "name": "ZeroCore2-1.21.1-2.4.21.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1551013,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/ZeroCore2-1.21.1-2.4.21.jar",
+            "MD5": "64737cae90157c378ba9aee11e9098e3",
+            "path": "mods/ZeroCore2-1.21.1-2.4.21.jar"
+          }
+        },
+        {
+          "id": "[1.21.1] SecurityCraft v1.10.2.1.jar",
+          "name": "[1.21.1] SecurityCraft v1.10.2.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 5193371,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/[1.21.1]%20SecurityCraft%20v1.10.2.1.jar",
+            "MD5": "862516ce5f9c976e11244270284a11e5",
+            "path": "mods/[1.21.1] SecurityCraft v1.10.2.1.jar"
+          }
+        },
+        {
+          "id": "abyssal_decor_1.21.1_0.10.0_Neoforge.jar",
+          "name": "abyssal_decor_1.21.1_0.10.0_Neoforge.jar",
+          "type": "File",
+          "artifact": {
+            "size": 10415587,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/abyssal_decor_1.21.1_0.10.0_Neoforge.jar",
+            "MD5": "e4816433837f0f4a160625d2f2126206",
+            "path": "mods/abyssal_decor_1.21.1_0.10.0_Neoforge.jar"
+          }
+        },
+        {
+          "id": "actuallyadditions-1.3.26+mc1.21.1.jar",
+          "name": "actuallyadditions-1.3.26+mc1.21.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 3217309,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/actuallyadditions-1.3.26+mc1.21.1.jar",
+            "MD5": "afcbe65bdf1cafd25e485992dd8bfade",
+            "path": "mods/actuallyadditions-1.3.26+mc1.21.1.jar"
+          }
+        },
+        {
+          "id": "additionallanterns-1.1.2-neoforge-mc1.21.jar",
+          "name": "additionallanterns-1.1.2-neoforge-mc1.21.jar",
+          "type": "File",
+          "artifact": {
+            "size": 3041170,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/additionallanterns-1.1.2-neoforge-mc1.21.jar",
+            "MD5": "0d47fdf4ed8bce3769bd5893ec0e760b",
+            "path": "mods/additionallanterns-1.1.2-neoforge-mc1.21.jar"
+          }
+        },
+        {
+          "id": "ae2jeiintegration-1.2.1.jar",
+          "name": "ae2jeiintegration-1.2.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 91710,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/ae2jeiintegration-1.2.1.jar",
+            "MD5": "ec004c7b8c6ad337874806ea48d2afeb",
+            "path": "mods/ae2jeiintegration-1.2.1.jar"
+          }
+        },
+        {
+          "id": "ae2wtlib-19.5.0.jar",
+          "name": "ae2wtlib-19.5.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 251969,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/ae2wtlib-19.5.0.jar",
+            "MD5": "1c9fdb5f8b5fc589cec242aba9ee6935",
+            "path": "mods/ae2wtlib-19.5.0.jar"
+          }
+        },
+        {
+          "id": "alltheleaks-1.1.9+1.21.1-neoforge.jar",
+          "name": "alltheleaks-1.1.9+1.21.1-neoforge.jar",
+          "type": "File",
+          "artifact": {
+            "size": 536836,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/alltheleaks-1.1.9+1.21.1-neoforge.jar",
+            "MD5": "68991b14458ffa27319e3be84535f34d",
+            "path": "mods/alltheleaks-1.1.9+1.21.1-neoforge.jar"
+          }
+        },
+        {
+          "id": "almostunified-neoforge-1.21.1-1.4.2.jar",
+          "name": "almostunified-neoforge-1.21.1-1.4.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 295093,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/almostunified-neoforge-1.21.1-1.4.2.jar",
+            "MD5": "3d34b71179a4fe0559a9a7f8770ee0cc",
+            "path": "mods/almostunified-neoforge-1.21.1-1.4.2.jar"
+          }
+        },
+        {
+          "id": "appleskin-neoforge-mc1.21-3.0.9.jar",
+          "name": "appleskin-neoforge-mc1.21-3.0.9.jar",
+          "type": "File",
+          "artifact": {
+            "size": 75804,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/appleskin-neoforge-mc1.21-3.0.9.jar",
+            "MD5": "db5fe7619d502cf5b9bc972a955cd3bc",
+            "path": "mods/appleskin-neoforge-mc1.21-3.0.9.jar"
+          }
+        },
+        {
+          "id": "appliedenergistics2-19.2.17.jar",
+          "name": "appliedenergistics2-19.2.17.jar",
+          "type": "File",
+          "artifact": {
+            "size": 8230896,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/appliedenergistics2-19.2.17.jar",
+            "MD5": "1d9768edc90fb50f065949f2628ea991",
+            "path": "mods/appliedenergistics2-19.2.17.jar"
+          }
+        },
+        {
+          "id": "appliedpneumatics-1.21.1-neoforge-1.0.8.jar",
+          "name": "appliedpneumatics-1.21.1-neoforge-1.0.8.jar",
+          "type": "File",
+          "artifact": {
+            "size": 446472,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/appliedpneumatics-1.21.1-neoforge-1.0.8.jar",
+            "MD5": "2d04d1c0bb36a982583fbb215ff3105b",
+            "path": "mods/appliedpneumatics-1.21.1-neoforge-1.0.8.jar"
+          }
+        },
+        {
+          "id": "architectury-13.0.8-neoforge.jar",
+          "name": "architectury-13.0.8-neoforge.jar",
+          "type": "File",
+          "artifact": {
+            "size": 584004,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/architectury-13.0.8-neoforge.jar",
+            "MD5": "7a45a948b525c031ca85d221dfdbed85",
+            "path": "mods/architectury-13.0.8-neoforge.jar"
+          }
+        },
+        {
+          "id": "armoroftheages-neoforge-1.21.1-1.5.10.jar",
+          "name": "armoroftheages-neoforge-1.21.1-1.5.10.jar",
+          "type": "File",
+          "artifact": {
+            "size": 554516,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/armoroftheages-neoforge-1.21.1-1.5.10.jar",
+            "MD5": "4ca7587e6dc4f263f93992d3bd812c8d",
+            "path": "mods/armoroftheages-neoforge-1.21.1-1.5.10.jar"
+          }
+        },
+        {
+          "id": "ars_nouveau-1.21.1-5.12.1.jar",
+          "name": "ars_nouveau-1.21.1-5.12.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 20724579,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/ars_nouveau-1.21.1-5.12.1.jar",
+            "MD5": "aaa1da3becc955bd2631c9db74683d38",
+            "path": "mods/ars_nouveau-1.21.1-5.12.1.jar"
+          }
+        },
+        {
+          "id": "ars_ocultas-1.21.1-2.4.1.jar",
+          "name": "ars_ocultas-1.21.1-2.4.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 78526,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/ars_ocultas-1.21.1-2.4.1.jar",
+            "MD5": "008c5db16bd1f3f3968b97274cbac00d",
+            "path": "mods/ars_ocultas-1.21.1-2.4.1.jar"
+          }
+        },
+        {
+          "id": "ars_polymorphia-1.0.3.jar",
+          "name": "ars_polymorphia-1.0.3.jar",
+          "type": "File",
+          "artifact": {
+            "size": 20201,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/ars_polymorphia-1.0.3.jar",
+            "MD5": "137a41ba8bf94cdb6599ed1822c5b61d",
+            "path": "mods/ars_polymorphia-1.0.3.jar"
+          }
+        },
+        {
+          "id": "arsdelight-2.2.2.jar",
+          "name": "arsdelight-2.2.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1250237,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/arsdelight-2.2.2.jar",
+            "MD5": "48c10e80a0e53dde4acdd5a5a5270c12",
+            "path": "mods/arsdelight-2.2.2.jar"
+          }
+        },
+        {
+          "id": "arseng-2.1.1-beta.jar",
+          "name": "arseng-2.1.1-beta.jar",
+          "type": "File",
+          "artifact": {
+            "size": 123229,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/arseng-2.1.1-beta.jar",
+            "MD5": "d164a8f88d5b8d133e93847932f18a58",
+            "path": "mods/arseng-2.1.1-beta.jar"
+          }
+        },
+        {
+          "id": "artificer-beta6.1-neoforge-1.21.1.jar",
+          "name": "artificer-beta6.1-neoforge-1.21.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 454791,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/artificer-beta6.1-neoforge-1.21.1.jar",
+            "MD5": "d675cab9a67e6f47540cbcd10d952d9f",
+            "path": "mods/artificer-beta6.1-neoforge-1.21.1.jar"
+          }
+        },
+        {
+          "id": "athena-neoforge-1.21.1-4.0.6.jar",
+          "name": "athena-neoforge-1.21.1-4.0.6.jar",
+          "type": "File",
+          "artifact": {
+            "size": 99944,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/athena-neoforge-1.21.1-4.0.6.jar",
+            "MD5": "0c22a1ec59e5ce22eef1b614fda59b42",
+            "path": "mods/athena-neoforge-1.21.1-4.0.6.jar"
+          }
+        },
+        {
+          "id": "attributefix-neoforge-1.21.1-21.1.3.jar",
+          "name": "attributefix-neoforge-1.21.1-21.1.3.jar",
+          "type": "File",
+          "artifact": {
+            "size": 19809,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/attributefix-neoforge-1.21.1-21.1.3.jar",
+            "MD5": "1552cea16a40215f9773e609114ccce1",
+            "path": "mods/attributefix-neoforge-1.21.1-21.1.3.jar"
+          }
+        },
+        {
+          "id": "badmobs-neoforge-1.21.1-21.1.1.jar",
+          "name": "badmobs-neoforge-1.21.1-21.1.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 31421,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/badmobs-neoforge-1.21.1-21.1.1.jar",
+            "MD5": "f036cb775a6b7ac62175a043b423ee2b",
+            "path": "mods/badmobs-neoforge-1.21.1-21.1.1.jar"
+          }
+        },
+        {
+          "id": "bagus_lib-1.21.1-13.25.1.jar",
+          "name": "bagus_lib-1.21.1-13.25.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 224874,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/bagus_lib-1.21.1-13.25.1.jar",
+            "MD5": "d83535bf3ff32fcf820ebe03d586093d",
+            "path": "mods/bagus_lib-1.21.1-13.25.1.jar"
+          }
+        },
+        {
+          "id": "balm-neoforge-1.21.1-21.0.59.jar",
+          "name": "balm-neoforge-1.21.1-21.0.59.jar",
+          "type": "File",
+          "artifact": {
+            "size": 735066,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/balm-neoforge-1.21.1-21.0.59.jar",
+            "MD5": "bc4a8aa45731f636e71795465a14663b",
+            "path": "mods/balm-neoforge-1.21.1-21.0.59.jar"
+          }
+        },
+        {
+          "id": "beer-1.21.1-1.4.1.jar",
+          "name": "beer-1.21.1-1.4.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 71900,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/beer-1.21.1-1.4.1.jar",
+            "MD5": "861b8d4660815f399afc0872321cca83",
+            "path": "mods/beer-1.21.1-1.4.1.jar"
+          }
+        },
+        {
+          "id": "belts-neoforge-0.2.2.jar",
+          "name": "belts-neoforge-0.2.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 81862,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/belts-neoforge-0.2.2.jar",
+            "MD5": "882d422bdfe06693416556b0c41ba711",
+            "path": "mods/belts-neoforge-0.2.2.jar"
+          }
+        },
+        {
+          "id": "betterarcheology-neoforge-1.21.1-1.3.4.jar",
+          "name": "betterarcheology-neoforge-1.21.1-1.3.4.jar",
+          "type": "File",
+          "artifact": {
+            "size": 3106705,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/betterarcheology-neoforge-1.21.1-1.3.4.jar",
+            "MD5": "fc3cac9b88dc81004a8d5ee3c545b932",
+            "path": "mods/betterarcheology-neoforge-1.21.1-1.3.4.jar"
+          }
+        },
+        {
+          "id": "betterblockz-0.2.9-1.21.1-neoforge.jar",
+          "name": "betterblockz-0.2.9-1.21.1-neoforge.jar",
+          "type": "File",
+          "artifact": {
+            "size": 6706189,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/betterblockz-0.2.9-1.21.1-neoforge.jar",
+            "MD5": "a6ec9579305283f27db483920002727d",
+            "path": "mods/betterblockz-0.2.9-1.21.1-neoforge.jar"
+          }
+        },
+        {
+          "id": "bibliobiomes-1.21.1-1.6.2.jar",
+          "name": "bibliobiomes-1.21.1-1.6.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 20181754,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/bibliobiomes-1.21.1-1.6.2.jar",
+            "MD5": "5020135e48adf8d76400435682be0979",
+            "path": "mods/bibliobiomes-1.21.1-1.6.2.jar"
+          }
+        },
+        {
+          "id": "bibliocraft-1.21.1-1.6.5.jar",
+          "name": "bibliocraft-1.21.1-1.6.5.jar",
+          "type": "File",
+          "artifact": {
+            "size": 5471083,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/bibliocraft-1.21.1-1.6.5.jar",
+            "MD5": "93a9a56d3b3e94334ee8fdbd3d91a5e3",
+            "path": "mods/bibliocraft-1.21.1-1.6.5.jar"
+          }
+        },
+        {
+          "id": "bibliowoods-1.21.1-1.6.5.jar",
+          "name": "bibliowoods-1.21.1-1.6.5.jar",
+          "type": "File",
+          "artifact": {
+            "size": 23782817,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/bibliowoods-1.21.1-1.6.5.jar",
+            "MD5": "b8ffeca99473fa3bc6341869ae6ddf05",
+            "path": "mods/bibliowoods-1.21.1-1.6.5.jar"
+          }
+        },
+        {
+          "id": "bits-and-bobs-1.21.1-1.0.6.jar",
+          "name": "bits-and-bobs-1.21.1-1.0.6.jar",
+          "type": "File",
+          "artifact": {
+            "size": 5335624,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/bits-and-bobs-1.21.1-1.0.6.jar",
+            "MD5": "1af19a26fb30f7b7252618f526b4adf9",
+            "path": "mods/bits-and-bobs-1.21.1-1.0.6.jar"
+          }
+        },
+        {
+          "id": "bjornlib-neoforge-1.0.88-1.21.1.jar",
+          "name": "bjornlib-neoforge-1.0.88-1.21.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 320231,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/bjornlib-neoforge-1.0.88-1.21.1.jar",
+            "MD5": "fa9dc4fc8a63a618bb5ae3e713b7306f",
+            "path": "mods/bjornlib-neoforge-1.0.88-1.21.1.jar"
+          }
+        },
+        {
+          "id": "blaze_and_glaze-1.1.0-neoforge-1.21.1 (1).jar",
+          "name": "blaze_and_glaze-1.1.0-neoforge-1.21.1 (1).jar",
+          "type": "File",
+          "artifact": {
+            "size": 6938900,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/blaze_and_glaze-1.1.0-neoforge-1.21.1%20(1).jar",
+            "MD5": "0ffb14d2749d2a1673d814772768820e",
+            "path": "mods/blaze_and_glaze-1.1.0-neoforge-1.21.1 (1).jar"
+          }
+        },
+        {
+          "id": "block_factorys_bosses-2.1.2-neo-1.21.1.jar",
+          "name": "block_factorys_bosses-2.1.2-neo-1.21.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 23943105,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/block_factorys_bosses-2.1.2-neo-1.21.1.jar",
+            "MD5": "82522f83422e7210a7458f48524b77ee",
+            "path": "mods/block_factorys_bosses-2.1.2-neo-1.21.1.jar"
+          }
+        },
+        {
+          "id": "block_party-2.0.0-neoforge-1.21.1.jar",
+          "name": "block_party-2.0.0-neoforge-1.21.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 57789969,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/block_party-2.0.0-neoforge-1.21.1.jar",
+            "MD5": "070f882c1e0f70654f49cff571439762",
+            "path": "mods/block_party-2.0.0-neoforge-1.21.1.jar"
+          }
+        },
+        {
+          "id": "blockui-1.0.211-1.21.1-snapshot.jar",
+          "name": "blockui-1.0.211-1.21.1-snapshot.jar",
+          "type": "File",
+          "artifact": {
+            "size": 468147,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/blockui-1.0.211-1.21.1-snapshot.jar",
+            "MD5": "cbfeb1e7d5c3347b9db532e7e1eaf298",
+            "path": "mods/blockui-1.0.211-1.21.1-snapshot.jar"
+          }
+        },
+        {
+          "id": "blueprint-1.21.1-8.1.0.jar",
+          "name": "blueprint-1.21.1-8.1.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1198111,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/blueprint-1.21.1-8.1.0.jar",
+            "MD5": "731ccc22724d390795c3151ec73b6d34",
+            "path": "mods/blueprint-1.21.1-8.1.0.jar"
+          }
+        },
+        {
+          "id": "bookshelf-neoforge-1.21.1-21.1.81.jar",
+          "name": "bookshelf-neoforge-1.21.1-21.1.81.jar",
+          "type": "File",
+          "artifact": {
+            "size": 328813,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/bookshelf-neoforge-1.21.1-21.1.81.jar",
+            "MD5": "9f627fe031221159d74a491e279f773a",
+            "path": "mods/bookshelf-neoforge-1.21.1-21.1.81.jar"
+          }
+        },
+        {
+          "id": "buzzier_bees-1.21.1-7.0.1.jar",
+          "name": "buzzier_bees-1.21.1-7.0.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 592651,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/buzzier_bees-1.21.1-7.0.1.jar",
+            "MD5": "9a3cb83fc09976a41c4cc34f70af90fb",
+            "path": "mods/buzzier_bees-1.21.1-7.0.1.jar"
+          }
+        },
+        {
+          "id": "bwncr-neoforge-1.21.1-3.20.4.jar",
+          "name": "bwncr-neoforge-1.21.1-3.20.4.jar",
+          "type": "File",
+          "artifact": {
+            "size": 28573,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/bwncr-neoforge-1.21.1-3.20.4.jar",
+            "MD5": "74333232bca9d411d0f1f8a416933361",
+            "path": "mods/bwncr-neoforge-1.21.1-3.20.4.jar"
+          }
+        },
+        {
+          "id": "chronodawn-0.8.0+1.21.1-neoforge.jar",
+          "name": "chronodawn-0.8.0+1.21.1-neoforge.jar",
+          "type": "File",
+          "artifact": {
+            "size": 15884207,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/chronodawn-0.8.0+1.21.1-neoforge.jar",
+            "MD5": "f395dcca270f9692dbd37476de0967a2",
+            "path": "mods/chronodawn-0.8.0+1.21.1-neoforge.jar"
+          }
+        },
+        {
+          "id": "chunksending-1.21-2.9.jar",
+          "name": "chunksending-1.21-2.9.jar",
+          "type": "File",
+          "artifact": {
+            "size": 12100,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/chunksending-1.21-2.9.jar",
+            "MD5": "b11e59b474f20e203cfdfb7324905527",
+            "path": "mods/chunksending-1.21-2.9.jar"
+          }
+        },
+        {
+          "id": "civilis_magic-1.0.1-universal-1.21.1.jar",
+          "name": "civilis_magic-1.0.1-universal-1.21.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 70951,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/civilis_magic-1.0.1-universal-1.21.1.jar",
+            "MD5": "931a03793e438e2d4228b0c78a295f13",
+            "path": "mods/civilis_magic-1.0.1-universal-1.21.1.jar"
+          }
+        },
+        {
+          "id": "civilis_minecolonies-1.0.4-universal-1.21.1.jar",
+          "name": "civilis_minecolonies-1.0.4-universal-1.21.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 74489,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/civilis_minecolonies-1.0.4-universal-1.21.1.jar",
+            "MD5": "a8dcf7ed02e71fc4bdbfdfdba109bb74",
+            "path": "mods/civilis_minecolonies-1.0.4-universal-1.21.1.jar"
+          }
+        },
+        {
+          "id": "civillis-neoforge-2.0.0-release+mc1.21.1.jar",
+          "name": "civillis-neoforge-2.0.0-release+mc1.21.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 737922,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/civillis-neoforge-2.0.0-release+mc1.21.1.jar",
+            "MD5": "23a5eef80ab2e56ade6b0e8354ba9467",
+            "path": "mods/civillis-neoforge-2.0.0-release+mc1.21.1.jar"
+          }
+        },
+        {
+          "id": "cleanswing-1.9.jar",
+          "name": "cleanswing-1.9.jar",
+          "type": "File",
+          "artifact": {
+            "size": 8449,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/cleanswing-1.9.jar",
+            "MD5": "c3aea0436a9b9ba18c59c8bf259805ef",
+            "path": "mods/cleanswing-1.9.jar"
+          }
+        },
+        {
+          "id": "cloth-config-15.0.140-neoforge.jar",
+          "name": "cloth-config-15.0.140-neoforge.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1163890,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/cloth-config-15.0.140-neoforge.jar",
+            "MD5": "4c3757160403fcccb8ad468c2ea22862",
+            "path": "mods/cloth-config-15.0.140-neoforge.jar"
+          }
+        },
+        {
+          "id": "collective-1.21.1-8.39.jar",
+          "name": "collective-1.21.1-8.39.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1061931,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/collective-1.21.1-8.39.jar",
+            "MD5": "7ae605279aacf6ae233bb1aafe2775c4",
+            "path": "mods/collective-1.21.1-8.39.jar"
+          }
+        },
+        {
+          "id": "colonylink-1.5.1.jar",
+          "name": "colonylink-1.5.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 478985,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/colonylink-1.5.1.jar",
+            "MD5": "666df1fa0787e9739627fa4e10b16354",
+            "path": "mods/colonylink-1.5.1.jar"
+          }
+        },
+        {
+          "id": "colored_water-neoforge-1.21.1.jar",
+          "name": "colored_water-neoforge-1.21.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 781574,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/colored_water-neoforge-1.21.1.jar",
+            "MD5": "ba7988d6e4f6c2676308862c652350b2",
+            "path": "mods/colored_water-neoforge-1.21.1.jar"
+          }
+        },
+        {
+          "id": "colourfulclocks-neoforge-1.21.1-0.1.4-beta.jar",
+          "name": "colourfulclocks-neoforge-1.21.1-0.1.4-beta.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1074326,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/colourfulclocks-neoforge-1.21.1-0.1.4-beta.jar",
+            "MD5": "48901a3dba65ba885a0c80bd014d5aa8",
+            "path": "mods/colourfulclocks-neoforge-1.21.1-0.1.4-beta.jar"
+          }
+        },
+        {
+          "id": "comfortable_campfires-2.0.1+1.21.1-neoforge.jar",
+          "name": "comfortable_campfires-2.0.1+1.21.1-neoforge.jar",
+          "type": "File",
+          "artifact": {
+            "size": 322032,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/comfortable_campfires-2.0.1+1.21.1-neoforge.jar",
+            "MD5": "1162370b9bc938ad7302061a9ce6fdcb",
+            "path": "mods/comfortable_campfires-2.0.1+1.21.1-neoforge.jar"
+          }
+        },
+        {
+          "id": "cookingforblockheads-neoforge-1.21.1-21.1.23.jar",
+          "name": "cookingforblockheads-neoforge-1.21.1-21.1.23.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1265987,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/cookingforblockheads-neoforge-1.21.1-21.1.23.jar",
+            "MD5": "5f528fb41598088c89a7320239e88a3e",
+            "path": "mods/cookingforblockheads-neoforge-1.21.1-21.1.23.jar"
+          }
+        },
+        {
+          "id": "corpse-neoforge-1.21.1-1.1.13.jar",
+          "name": "corpse-neoforge-1.21.1-1.1.13.jar",
+          "type": "File",
+          "artifact": {
+            "size": 253695,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/corpse-neoforge-1.21.1-1.1.13.jar",
+            "MD5": "1d3f40f9cf85f1e3a330201ea2e85c2c",
+            "path": "mods/corpse-neoforge-1.21.1-1.1.13.jar"
+          }
+        },
+        {
+          "id": "cosmeticarmorreworked-1.21.1-v1-neoforge.jar",
+          "name": "cosmeticarmorreworked-1.21.1-v1-neoforge.jar",
+          "type": "File",
+          "artifact": {
+            "size": 92722,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/cosmeticarmorreworked-1.21.1-v1-neoforge.jar",
+            "MD5": "881eb025d54ca01165c115a38a8d48c4",
+            "path": "mods/cosmeticarmorreworked-1.21.1-v1-neoforge.jar"
+          }
+        },
+        {
+          "id": "cosmos_infinia-1.2.1.6-neoforge-1.21.1.jar",
+          "name": "cosmos_infinia-1.2.1.6-neoforge-1.21.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 11765885,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/cosmos_infinia-1.2.1.6-neoforge-1.21.1.jar",
+            "MD5": "ec798fa92fb8dbf0b9b62df0a437da80",
+            "path": "mods/cosmos_infinia-1.2.1.6-neoforge-1.21.1.jar"
+          }
+        },
+        {
+          "id": "cozyapartments 1.21.1 v1.2.jar",
+          "name": "cozyapartments 1.21.1 v1.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 754391,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/cozyapartments%201.21.1%20v1.2.jar",
+            "MD5": "c5c1face0f448be7f48b70f05160ecb7",
+            "path": "mods/cozyapartments 1.21.1 v1.2.jar"
+          }
+        },
+        {
+          "id": "craftable_crops-1.0.0-neoforge-1.21.1.jar",
+          "name": "craftable_crops-1.0.0-neoforge-1.21.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 11352,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/craftable_crops-1.0.0-neoforge-1.21.1.jar",
+            "MD5": "96401202df6390b87113f4afa8449c02",
+            "path": "mods/craftable_crops-1.0.0-neoforge-1.21.1.jar"
+          }
+        },
+        {
+          "id": "crashutilities-9.0.4.jar",
+          "name": "crashutilities-9.0.4.jar",
+          "type": "File",
+          "artifact": {
+            "size": 225310,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/crashutilities-9.0.4.jar",
+            "MD5": "8a6dd8e1ebe0e5e8acf3bd377f98361c",
+            "path": "mods/crashutilities-9.0.4.jar"
+          }
+        },
+        {
+          "id": "creeperfireworks-1.21.1-1.0.2.2-NEOFORGE.jar",
+          "name": "creeperfireworks-1.21.1-1.0.2.2-NEOFORGE.jar",
+          "type": "File",
+          "artifact": {
+            "size": 246738,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/creeperfireworks-1.21.1-1.0.2.2-NEOFORGE.jar",
+            "MD5": "1d19ef223c20d81128e7a7cb3073dc07",
+            "path": "mods/creeperfireworks-1.21.1-1.0.2.2-NEOFORGE.jar"
+          }
+        },
+        {
+          "id": "croptopia-neoforge-1.21.1-4.2.4.jar",
+          "name": "croptopia-neoforge-1.21.1-4.2.4.jar",
+          "type": "File",
+          "artifact": {
+            "size": 2220594,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/croptopia-neoforge-1.21.1-4.2.4.jar",
+            "MD5": "c98bc02548924d344d5f583942d722b0",
+            "path": "mods/croptopia-neoforge-1.21.1-4.2.4.jar"
+          }
+        },
+        {
+          "id": "cupboard-1.21.1-3.8.jar",
+          "name": "cupboard-1.21.1-3.8.jar",
+          "type": "File",
+          "artifact": {
+            "size": 28741,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/cupboard-1.21.1-3.8.jar",
+            "MD5": "9fb8634d333bcb2899a78488d85c3d2e",
+            "path": "mods/cupboard-1.21.1-3.8.jar"
+          }
+        },
+        {
+          "id": "curios-neoforge-9.5.1+1.21.1.jar",
+          "name": "curios-neoforge-9.5.1+1.21.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 410690,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/curios-neoforge-9.5.1+1.21.1.jar",
+            "MD5": "e8f0a3574264bb202c153b90293dc84c",
+            "path": "mods/curios-neoforge-9.5.1+1.21.1.jar"
+          }
+        },
+        {
+          "id": "darksmelting-neoforge-1.21-1.1.7.jar",
+          "name": "darksmelting-neoforge-1.21-1.1.7.jar",
+          "type": "File",
+          "artifact": {
+            "size": 8128,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/darksmelting-neoforge-1.21-1.1.7.jar",
+            "MD5": "661176c50254e7c426f8c4db2d23f47e",
+            "path": "mods/darksmelting-neoforge-1.21-1.1.7.jar"
+          }
+        },
+        {
+          "id": "databank-1.3.1.jar",
+          "name": "databank-1.3.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 536554,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/databank-1.3.1.jar",
+            "MD5": "ac949b54d324e280b43d3230c3646309",
+            "path": "mods/databank-1.3.1.jar"
+          }
+        },
+        {
+          "id": "dawnoftimebuilder-neoforge-1.21.1-1.6.6.jar",
+          "name": "dawnoftimebuilder-neoforge-1.21.1-1.6.6.jar",
+          "type": "File",
+          "artifact": {
+            "size": 3083725,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/dawnoftimebuilder-neoforge-1.21.1-1.6.6.jar",
+            "MD5": "562f0c4b96c8ee97c242caef7567e884",
+            "path": "mods/dawnoftimebuilder-neoforge-1.21.1-1.6.6.jar"
+          }
+        },
+        {
+          "id": "deeperdarker-neoforge-1.21.1-1.4.1.jar",
+          "name": "deeperdarker-neoforge-1.21.1-1.4.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 3906057,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/deeperdarker-neoforge-1.21.1-1.4.1.jar",
+            "MD5": "3d2e41335836a5b6b7152340680c3fd6",
+            "path": "mods/deeperdarker-neoforge-1.21.1-1.4.1.jar"
+          }
+        },
+        {
+          "id": "deimos-1.21.1-neoforge-2.7.jar",
+          "name": "deimos-1.21.1-neoforge-2.7.jar",
+          "type": "File",
+          "artifact": {
+            "size": 49576,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/deimos-1.21.1-neoforge-2.7.jar",
+            "MD5": "073ff95bd5838d879b93aae890684fba",
+            "path": "mods/deimos-1.21.1-neoforge-2.7.jar"
+          }
+        },
+        {
+          "id": "disenchanting_table-merged-1.21.1-5.0.2.jar",
+          "name": "disenchanting_table-merged-1.21.1-5.0.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 306197,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/disenchanting_table-merged-1.21.1-5.0.2.jar",
+            "MD5": "b4c20cf6a80c2edadf74ff53226c2750",
+            "path": "mods/disenchanting_table-merged-1.21.1-5.0.2.jar"
+          }
+        },
+        {
+          "id": "dnejei-1.21.1-0.3.1.jar",
+          "name": "dnejei-1.21.1-0.3.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 36792,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/dnejei-1.21.1-0.3.1.jar",
+            "MD5": "1b07a11c63337078c86fa187694b37a6",
+            "path": "mods/dnejei-1.21.1-0.3.1.jar"
+          }
+        },
+        {
+          "id": "domum-ornamentum-1.0.234-snapshot-main.jar",
+          "name": "domum-ornamentum-1.0.234-snapshot-main.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1151596,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/domum-ornamentum-1.0.234-snapshot-main.jar",
+            "MD5": "e3315e10c51352e1c5ce7545c4b813c6",
+            "path": "mods/domum-ornamentum-1.0.234-snapshot-main.jar"
+          }
+        },
+        {
+          "id": "doubledoors-1.21.1-7.2.jar",
+          "name": "doubledoors-1.21.1-7.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 75041,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/doubledoors-1.21.1-7.2.jar",
+            "MD5": "bc5d5a4d5edfed10d09f149e173ec600",
+            "path": "mods/doubledoors-1.21.1-7.2.jar"
+          }
+        },
+        {
+          "id": "dragonfight-1.21-4.7.jar",
+          "name": "dragonfight-1.21-4.7.jar",
+          "type": "File",
+          "artifact": {
+            "size": 35942,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/dragonfight-1.21-4.7.jar",
+            "MD5": "0372f19ec445ccb143299834c2adabac",
+            "path": "mods/dragonfight-1.21-4.7.jar"
+          }
+        },
+        {
+          "id": "dynview-1.21-4.0.jar",
+          "name": "dynview-1.21-4.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 20613,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/dynview-1.21-4.0.jar",
+            "MD5": "5546e9039b7968b058992d968cac6610",
+            "path": "mods/dynview-1.21-4.0.jar"
+          }
+        },
+        {
+          "id": "eccentrictome-1.21.1-1.2.0.jar",
+          "name": "eccentrictome-1.21.1-1.2.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 50035,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/eccentrictome-1.21.1-1.2.0.jar",
+            "MD5": "6d8afc116678ebfb2d74fc78ec8edd0f",
+            "path": "mods/eccentrictome-1.21.1-1.2.0.jar"
+          }
+        },
+        {
+          "id": "enchanted-neoforge-1.21.1-4.2.7.jar",
+          "name": "enchanted-neoforge-1.21.1-4.2.7.jar",
+          "type": "File",
+          "artifact": {
+            "size": 3120843,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/enchanted-neoforge-1.21.1-4.2.7.jar",
+            "MD5": "f63193ca85ebe64a21044be40a9b0a19",
+            "path": "mods/enchanted-neoforge-1.21.1-4.2.7.jar"
+          }
+        },
+        {
+          "id": "enchanting_realms-0.9.6-neoforge-1.21.1.jar",
+          "name": "enchanting_realms-0.9.6-neoforge-1.21.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 555079,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/enchanting_realms-0.9.6-neoforge-1.21.1.jar",
+            "MD5": "80f8ef9f4dc396b892d8e40bd3b182cf",
+            "path": "mods/enchanting_realms-0.9.6-neoforge-1.21.1.jar"
+          }
+        },
+        {
+          "id": "endermanoverhaul-neoforge-1.21.1-2.0.3.jar",
+          "name": "endermanoverhaul-neoforge-1.21.1-2.0.3.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1330403,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/endermanoverhaul-neoforge-1.21.1-2.0.3.jar",
+            "MD5": "03e87f38be1a7218c55f35676f6248ac",
+            "path": "mods/endermanoverhaul-neoforge-1.21.1-2.0.3.jar"
+          }
+        },
+        {
+          "id": "endervillages-2.0-1.21.1.jar",
+          "name": "endervillages-2.0-1.21.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 204804,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/endervillages-2.0-1.21.1.jar",
+            "MD5": "155c87d22f9ef675ddc742fb4343148e",
+            "path": "mods/endervillages-2.0-1.21.1.jar"
+          }
+        },
+        {
+          "id": "endrem-neoforge-1.21.X-6.0.2.jar",
+          "name": "endrem-neoforge-1.21.X-6.0.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 942510,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/endrem-neoforge-1.21.X-6.0.2.jar",
+            "MD5": "5b4a18c9dd13c7df7f62edc51003013c",
+            "path": "mods/endrem-neoforge-1.21.X-6.0.2.jar"
+          }
+        },
+        {
+          "id": "ephemeral_dimensions-1.0.3-neoforge-1.21.1.jar",
+          "name": "ephemeral_dimensions-1.0.3-neoforge-1.21.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 3098817,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/ephemeral_dimensions-1.0.3-neoforge-1.21.1.jar",
+            "MD5": "92a3d57b4c9c2d86621a601dc587acd2",
+            "path": "mods/ephemeral_dimensions-1.0.3-neoforge-1.21.1.jar"
+          }
+        },
+        {
+          "id": "extendedae_plus-1.21.1-1.5.4.1.jar",
+          "name": "extendedae_plus-1.21.1-1.5.4.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 993465,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/extendedae_plus-1.21.1-1.5.4.1.jar",
+            "MD5": "de0919a1d9f0bcf6a32e0e1fea854728",
+            "path": "mods/extendedae_plus-1.21.1-1.5.4.1.jar"
+          }
+        },
+        {
+          "id": "extracarpets-1.1.jar",
+          "name": "extracarpets-1.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 273487,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/extracarpets-1.1.jar",
+            "MD5": "f158cd89320a41f759a290a59f707af6",
+            "path": "mods/extracarpets-1.1.jar"
+          }
+        },
+        {
+          "id": "farmingforblockheads-neoforge-1.21.1-21.1.13.jar",
+          "name": "farmingforblockheads-neoforge-1.21.1-21.1.13.jar",
+          "type": "File",
+          "artifact": {
+            "size": 830933,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/farmingforblockheads-neoforge-1.21.1-21.1.13.jar",
+            "MD5": "38eb903e4dfb96c8079edd03dc8fca3f",
+            "path": "mods/farmingforblockheads-neoforge-1.21.1-21.1.13.jar"
+          }
+        },
+        {
+          "id": "fastasyncworldsave-1.21-2.6.jar",
+          "name": "fastasyncworldsave-1.21-2.6.jar",
+          "type": "File",
+          "artifact": {
+            "size": 11050,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/fastasyncworldsave-1.21-2.6.jar",
+            "MD5": "4df9371b5466dfbb56c375f4963f2845",
+            "path": "mods/fastasyncworldsave-1.21-2.6.jar"
+          }
+        },
+        {
+          "id": "fastleafdecay-35.jar",
+          "name": "fastleafdecay-35.jar",
+          "type": "File",
+          "artifact": {
+            "size": 9511,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/fastleafdecay-35.jar",
+            "MD5": "97223075d6407a012024fd7e3c48e5e8",
+            "path": "mods/fastleafdecay-35.jar"
+          }
+        },
+        {
+          "id": "ferritecore-7.0.3-neoforge.jar",
+          "name": "ferritecore-7.0.3-neoforge.jar",
+          "type": "File",
+          "artifact": {
+            "size": 121559,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/ferritecore-7.0.3-neoforge.jar",
+            "MD5": "e0374dac41d6c641903f9e241911e1d3",
+            "path": "mods/ferritecore-7.0.3-neoforge.jar"
+          }
+        },
+        {
+          "id": "fetzisasiandeco-neoforge-1.8.0-1.21.jar",
+          "name": "fetzisasiandeco-neoforge-1.8.0-1.21.jar",
+          "type": "File",
+          "artifact": {
+            "size": 19956208,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/fetzisasiandeco-neoforge-1.8.0-1.21.jar",
+            "MD5": "abe52694679d33aebe9bc957ba5b3258",
+            "path": "mods/fetzisasiandeco-neoforge-1.8.0-1.21.jar"
+          }
+        },
+        {
+          "id": "forbidden_arcanus-2.6.1.jar",
+          "name": "forbidden_arcanus-2.6.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 3402083,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/forbidden_arcanus-2.6.1.jar",
+            "MD5": "16e529d8b3e3de0d2d0343c601704c69",
+            "path": "mods/forbidden_arcanus-2.6.1.jar"
+          }
+        },
+        {
+          "id": "framedcolonies-1.0.3.jar",
+          "name": "framedcolonies-1.0.3.jar",
+          "type": "File",
+          "artifact": {
+            "size": 10311,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/framedcolonies-1.0.3.jar",
+            "MD5": "bb6927f2c5de02841052f401b9e06e7d",
+            "path": "mods/framedcolonies-1.0.3.jar"
+          }
+        },
+        {
+          "id": "framework-neoforge-1.21.1-0.13.11.jar",
+          "name": "framework-neoforge-1.21.1-0.13.11.jar",
+          "type": "File",
+          "artifact": {
+            "size": 387334,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/framework-neoforge-1.21.1-0.13.11.jar",
+            "MD5": "06f94f31d9e0b59c8b42a5b0df7013d6",
+            "path": "mods/framework-neoforge-1.21.1-0.13.11.jar"
+          }
+        },
+        {
+          "id": "ftb-chunks-neoforge-2101.1.20.jar",
+          "name": "ftb-chunks-neoforge-2101.1.20.jar",
+          "type": "File",
+          "artifact": {
+            "size": 655911,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/ftb-chunks-neoforge-2101.1.20.jar",
+            "MD5": "6a07d41e10cfd1378a2e43b36bf8d77c",
+            "path": "mods/ftb-chunks-neoforge-2101.1.20.jar"
+          }
+        },
+        {
+          "id": "ftb-essentials-neoforge-2101.1.9.jar",
+          "name": "ftb-essentials-neoforge-2101.1.9.jar",
+          "type": "File",
+          "artifact": {
+            "size": 209459,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/ftb-essentials-neoforge-2101.1.9.jar",
+            "MD5": "b406c9fffbb6fc40f3c7073c946617da",
+            "path": "mods/ftb-essentials-neoforge-2101.1.9.jar"
+          }
+        },
+        {
+          "id": "ftb-library-neoforge-2101.1.32.jar",
+          "name": "ftb-library-neoforge-2101.1.32.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1416263,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/ftb-library-neoforge-2101.1.32.jar",
+            "MD5": "1865abec3429757ebff4b9282447779d",
+            "path": "mods/ftb-library-neoforge-2101.1.32.jar"
+          }
+        },
+        {
+          "id": "ftb-quests-neoforge-2101.1.27.jar",
+          "name": "ftb-quests-neoforge-2101.1.27.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1470929,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/ftb-quests-neoforge-2101.1.27.jar",
+            "MD5": "f8c830e936950af31fa89eb66a8aaffe",
+            "path": "mods/ftb-quests-neoforge-2101.1.27.jar"
+          }
+        },
+        {
+          "id": "ftb-ranks-neoforge-2101.1.3.jar",
+          "name": "ftb-ranks-neoforge-2101.1.3.jar",
+          "type": "File",
+          "artifact": {
+            "size": 88382,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/ftb-ranks-neoforge-2101.1.3.jar",
+            "MD5": "c273b7fb4b76bc82728bf2215fce7280",
+            "path": "mods/ftb-ranks-neoforge-2101.1.3.jar"
+          }
+        },
+        {
+          "id": "ftb-teams-neoforge-2101.1.10.jar",
+          "name": "ftb-teams-neoforge-2101.1.10.jar",
+          "type": "File",
+          "artifact": {
+            "size": 302712,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/ftb-teams-neoforge-2101.1.10.jar",
+            "MD5": "6e956386dd563e4ab7a76e72ba627d5a",
+            "path": "mods/ftb-teams-neoforge-2101.1.10.jar"
+          }
+        },
+        {
+          "id": "ftb-ultimine-neoforge-2101.1.15.jar",
+          "name": "ftb-ultimine-neoforge-2101.1.15.jar",
+          "type": "File",
+          "artifact": {
+            "size": 177109,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/ftb-ultimine-neoforge-2101.1.15.jar",
+            "MD5": "93de42bb644fad478ede2cc67d4aac16",
+            "path": "mods/ftb-ultimine-neoforge-2101.1.15.jar"
+          }
+        },
+        {
+          "id": "ftb-xmod-compat-neoforge-21.1.8.jar",
+          "name": "ftb-xmod-compat-neoforge-21.1.8.jar",
+          "type": "File",
+          "artifact": {
+            "size": 141328,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/ftb-xmod-compat-neoforge-21.1.8.jar",
+            "MD5": "2dcc73135a4345e39eda8119094d45d2",
+            "path": "mods/ftb-xmod-compat-neoforge-21.1.8.jar"
+          }
+        },
+        {
+          "id": "ftbquestslangsplitter-1.0.5.jar",
+          "name": "ftbquestslangsplitter-1.0.5.jar",
+          "type": "File",
+          "artifact": {
+            "size": 201142,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/ftbquestslangsplitter-1.0.5.jar",
+            "MD5": "5772926e0f1d7835fe56c0f10b58a9ed",
+            "path": "mods/ftbquestslangsplitter-1.0.5.jar"
+          }
+        },
+        {
+          "id": "functionalstorage-1.21.1-1.5.7.jar",
+          "name": "functionalstorage-1.21.1-1.5.7.jar",
+          "type": "File",
+          "artifact": {
+            "size": 776635,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/functionalstorage-1.21.1-1.5.7.jar",
+            "MD5": "f0b8603b127634e93a55e85c892ae008",
+            "path": "mods/functionalstorage-1.21.1-1.5.7.jar"
+          }
+        },
+        {
+          "id": "fusion-1.3.4-neoforge-mc1.21.1.jar",
+          "name": "fusion-1.3.4-neoforge-mc1.21.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 884198,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/fusion-1.3.4-neoforge-mc1.21.1.jar",
+            "MD5": "db6ee2b248fbb88c55efeb8961e0ec4c",
+            "path": "mods/fusion-1.3.4-neoforge-mc1.21.1.jar"
+          }
+        },
+        {
+          "id": "fzzy_config-0.7.6+1.21+neoforge.jar",
+          "name": "fzzy_config-0.7.6+1.21+neoforge.jar",
+          "type": "File",
+          "artifact": {
+            "size": 2369895,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/fzzy_config-0.7.6+1.21+neoforge.jar",
+            "MD5": "cd0823556e6d24046bd0f4ba74cd4981",
+            "path": "mods/fzzy_config-0.7.6+1.21+neoforge.jar"
+          }
+        },
+        {
+          "id": "geckolib-neoforge-1.21.1-4.9.1.jar",
+          "name": "geckolib-neoforge-1.21.1-4.9.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 630581,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/geckolib-neoforge-1.21.1-4.9.1.jar",
+            "MD5": "684d0f23e0bada770d39ae0d907d6015",
+            "path": "mods/geckolib-neoforge-1.21.1-4.9.1.jar"
+          }
+        },
+        {
+          "id": "genshinstrument-neoforge-1.21-1.21.1-5.1.jar",
+          "name": "genshinstrument-neoforge-1.21-1.21.1-5.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 7056535,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/genshinstrument-neoforge-1.21-1.21.1-5.1.jar",
+            "MD5": "a8d70a920bb2f317475201862e63d3f1",
+            "path": "mods/genshinstrument-neoforge-1.21-1.21.1-5.1.jar"
+          }
+        },
+        {
+          "id": "getittogetherdrops-neoforge-1.21.5-1.4.jar",
+          "name": "getittogetherdrops-neoforge-1.21.5-1.4.jar",
+          "type": "File",
+          "artifact": {
+            "size": 8825,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/getittogetherdrops-neoforge-1.21.5-1.4.jar",
+            "MD5": "c0259885d0d200894ce449fc95a1b63b",
+            "path": "mods/getittogetherdrops-neoforge-1.21.5-1.4.jar"
+          }
+        },
+        {
+          "id": "glazedresymmetry-1_21_1-1.8.jar",
+          "name": "glazedresymmetry-1_21_1-1.8.jar",
+          "type": "File",
+          "artifact": {
+            "size": 856801,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/glazedresymmetry-1_21_1-1.8.jar",
+            "MD5": "c736ac24ec4df274fb65b47b82090bc8",
+            "path": "mods/glazedresymmetry-1_21_1-1.8.jar"
+          }
+        },
+        {
+          "id": "gravelminer-neoforge-1.21.1-21.1.3.jar",
+          "name": "gravelminer-neoforge-1.21.1-21.1.3.jar",
+          "type": "File",
+          "artifact": {
+            "size": 77482,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/gravelminer-neoforge-1.21.1-21.1.3.jar",
+            "MD5": "ccc73a68d57949787ba0ed9e11f7257d",
+            "path": "mods/gravelminer-neoforge-1.21.1-21.1.3.jar"
+          }
+        },
+        {
+          "id": "greenhousegardener-01.01.008.jar",
+          "name": "greenhousegardener-01.01.008.jar",
+          "type": "File",
+          "artifact": {
+            "size": 551524,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/greenhousegardener-01.01.008.jar",
+            "MD5": "60b19e474b193fb142aa497decab7eb6",
+            "path": "mods/greenhousegardener-01.01.008.jar"
+          }
+        },
+        {
+          "id": "guideme-21.1.16.jar",
+          "name": "guideme-21.1.16.jar",
+          "type": "File",
+          "artifact": {
+            "size": 9309277,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/guideme-21.1.16.jar",
+            "MD5": "c4ab011d48bfa4498df9b515b5852883",
+            "path": "mods/guideme-21.1.16.jar"
+          }
+        },
+        {
+          "id": "handcrafted-neoforge-1.21.1-4.0.3.jar",
+          "name": "handcrafted-neoforge-1.21.1-4.0.3.jar",
+          "type": "File",
+          "artifact": {
+            "size": 7132842,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/handcrafted-neoforge-1.21.1-4.0.3.jar",
+            "MD5": "0f875f5741a6fad6f1c4f6fdbe5f538b",
+            "path": "mods/handcrafted-neoforge-1.21.1-4.0.3.jar"
+          }
+        },
+        {
+          "id": "heralds_luna-2.a5-neoforge-1.21.1.jar",
+          "name": "heralds_luna-2.a5-neoforge-1.21.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 25166312,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/heralds_luna-2.a5-neoforge-1.21.1.jar",
+            "MD5": "b4cfa5c1b6103828414733cedb78dab6",
+            "path": "mods/heralds_luna-2.a5-neoforge-1.21.1.jar"
+          }
+        },
+        {
+          "id": "highlight-neoforge-1.21.9-3.9.0.jar",
+          "name": "highlight-neoforge-1.21.9-3.9.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 471520,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/highlight-neoforge-1.21.9-3.9.0.jar",
+            "MD5": "3ccff75990ca7546fe51e5ab133b575a",
+            "path": "mods/highlight-neoforge-1.21.9-3.9.0.jar"
+          }
+        },
+        {
+          "id": "immersive_aircraft-1.4.6+1.21.1-neoforge.jar",
+          "name": "immersive_aircraft-1.4.6+1.21.1-neoforge.jar",
+          "type": "File",
+          "artifact": {
+            "size": 2447578,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/immersive_aircraft-1.4.6+1.21.1-neoforge.jar",
+            "MD5": "30b69d207825cc0a811427fe9141062a",
+            "path": "mods/immersive_aircraft-1.4.6+1.21.1-neoforge.jar"
+          }
+        },
+        {
+          "id": "immersive_armors-1.7.6+1.21.1-neoforge.jar",
+          "name": "immersive_armors-1.7.6+1.21.1-neoforge.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1274167,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/immersive_armors-1.7.6+1.21.1-neoforge.jar",
+            "MD5": "3f2a3c9a42a670fcc796d9f7691c78c4",
+            "path": "mods/immersive_armors-1.7.6+1.21.1-neoforge.jar"
+          }
+        },
+        {
+          "id": "immersive_furniture-neoforge-0.2.2+1.21.1.jar",
+          "name": "immersive_furniture-neoforge-0.2.2+1.21.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 925254,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/immersive_furniture-neoforge-0.2.2+1.21.1.jar",
+            "MD5": "e2e93f4135e1c3ab8841c7578ca6251e",
+            "path": "mods/immersive_furniture-neoforge-0.2.2+1.21.1.jar"
+          }
+        },
+        {
+          "id": "immersive_melodies-neoforge-0.6.4+1.21.1.jar",
+          "name": "immersive_melodies-neoforge-0.6.4+1.21.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 5521192,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/immersive_melodies-neoforge-0.6.4+1.21.1.jar",
+            "MD5": "03d6d811f7009d7bfb5fc838a779a7d4",
+            "path": "mods/immersive_melodies-neoforge-0.6.4+1.21.1.jar"
+          }
+        },
+        {
+          "id": "immersive_paintings-neoforge-1.21.1-0.7.8.jar",
+          "name": "immersive_paintings-neoforge-1.21.1-0.7.8.jar",
+          "type": "File",
+          "artifact": {
+            "size": 5500916,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/immersive_paintings-neoforge-1.21.1-0.7.8.jar",
+            "MD5": "a857d42037e6afbc0ad03a0b744ba7f5",
+            "path": "mods/immersive_paintings-neoforge-1.21.1-0.7.8.jar"
+          }
+        },
+        {
+          "id": "inventoryessentials-neoforge-1.21.1-21.1.16.jar",
+          "name": "inventoryessentials-neoforge-1.21.1-21.1.16.jar",
+          "type": "File",
+          "artifact": {
+            "size": 200182,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/inventoryessentials-neoforge-1.21.1-21.1.16.jar",
+            "MD5": "a10e12f635807aa304580f91af7959b6",
+            "path": "mods/inventoryessentials-neoforge-1.21.1-21.1.16.jar"
+          }
+        },
+        {
+          "id": "iron_ender_chests-1.21.1-1.0.3.jar",
+          "name": "iron_ender_chests-1.21.1-1.0.3.jar",
+          "type": "File",
+          "artifact": {
+            "size": 84269,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/iron_ender_chests-1.21.1-1.0.3.jar",
+            "MD5": "450d0e258e1f182f282671778110fc47",
+            "path": "mods/iron_ender_chests-1.21.1-1.0.3.jar"
+          }
+        },
+        {
+          "id": "ironfurnaces-neoforge-1.21.1-4.3.2.jar",
+          "name": "ironfurnaces-neoforge-1.21.1-4.3.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 576866,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/ironfurnaces-neoforge-1.21.1-4.3.2.jar",
+            "MD5": "cd8b224d7d81faadca30339841c11928",
+            "path": "mods/ironfurnaces-neoforge-1.21.1-4.3.2.jar"
+          }
+        },
+        {
+          "id": "jadecolonies-1.21.1-1.6.0.jar",
+          "name": "jadecolonies-1.21.1-1.6.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 64865,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/jadecolonies-1.21.1-1.6.0.jar",
+            "MD5": "f38ed132a8185ebc9925dda890287904",
+            "path": "mods/jadecolonies-1.21.1-1.6.0.jar"
+          }
+        },
+        {
+          "id": "jamlib-neoforge-1.3.6+1.21.1.jar",
+          "name": "jamlib-neoforge-1.3.6+1.21.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 188553,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/jamlib-neoforge-1.3.6+1.21.1.jar",
+            "MD5": "87ad4d47e5c266e20e2076ad5933d0cc",
+            "path": "mods/jamlib-neoforge-1.3.6+1.21.1.jar"
+          }
+        },
+        {
+          "id": "jei-1.21.1-neoforge-19.27.0.336.jar",
+          "name": "jei-1.21.1-neoforge-19.27.0.336.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1529192,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/jei-1.21.1-neoforge-19.27.0.336.jar",
+            "MD5": "d3da422d1a44e31af8a8d036b3d338f7",
+            "path": "mods/jei-1.21.1-neoforge-19.27.0.336.jar"
+          }
+        },
+        {
+          "id": "jmi-neoforge-1.21.1-1.9.jar",
+          "name": "jmi-neoforge-1.21.1-1.9.jar",
+          "type": "File",
+          "artifact": {
+            "size": 100241,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/jmi-neoforge-1.21.1-1.9.jar",
+            "MD5": "eb21831b1d81af97868ee330713adb5e",
+            "path": "mods/jmi-neoforge-1.21.1-1.9.jar"
+          }
+        },
+        {
+          "id": "journeymap-neoforge-1.21.1-6.0.0.jar",
+          "name": "journeymap-neoforge-1.21.1-6.0.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 4135013,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/journeymap-neoforge-1.21.1-6.0.0.jar",
+            "MD5": "cfcd0d12b93841ee2b2776f4f529b498",
+            "path": "mods/journeymap-neoforge-1.21.1-6.0.0.jar"
+          }
+        },
+        {
+          "id": "just-hammers-neoforge-21.1.4.jar",
+          "name": "just-hammers-neoforge-21.1.4.jar",
+          "type": "File",
+          "artifact": {
+            "size": 102133,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/just-hammers-neoforge-21.1.4.jar",
+            "MD5": "dd300d99cc7c643c89055593e29e2fa8",
+            "path": "mods/just-hammers-neoforge-21.1.4.jar"
+          }
+        },
+        {
+          "id": "just_in_nether-1.1.8-neoforge-1.21.1.jar",
+          "name": "just_in_nether-1.1.8-neoforge-1.21.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 263788,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/just_in_nether-1.1.8-neoforge-1.21.1.jar",
+            "MD5": "9817e03b7805e9baa617caaf5e1b44ca",
+            "path": "mods/just_in_nether-1.1.8-neoforge-1.21.1.jar"
+          }
+        },
+        {
+          "id": "kleeslabs-neoforge-1.21.1-21.1.11.jar",
+          "name": "kleeslabs-neoforge-1.21.1-21.1.11.jar",
+          "type": "File",
+          "artifact": {
+            "size": 310304,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/kleeslabs-neoforge-1.21.1-21.1.11.jar",
+            "MD5": "fedeb7c4e3791486e3b5b5be8cda3cdb",
+            "path": "mods/kleeslabs-neoforge-1.21.1-21.1.11.jar"
+          }
+        },
+        {
+          "id": "konkrete_neoforge_1.9.9_MC_1.21.jar",
+          "name": "konkrete_neoforge_1.9.9_MC_1.21.jar",
+          "type": "File",
+          "artifact": {
+            "size": 618842,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/konkrete_neoforge_1.9.9_MC_1.21.jar",
+            "MD5": "6e77d08299ea1ec7756a299263bc469b",
+            "path": "mods/konkrete_neoforge_1.9.9_MC_1.21.jar"
+          }
+        },
+        {
+          "id": "kotlinforforge-5.12.0-all.jar",
+          "name": "kotlinforforge-5.12.0-all.jar",
+          "type": "File",
+          "artifact": {
+            "size": 7279276,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/kotlinforforge-5.12.0-all.jar",
+            "MD5": "93db4ba2044a6667d7d1e3f592d63dbd",
+            "path": "mods/kotlinforforge-5.12.0-all.jar"
+          }
+        },
+        {
+          "id": "krypton_fnp-neoforge-1.21.1-0.2.28.1-1.21.1.jar",
+          "name": "krypton_fnp-neoforge-1.21.1-0.2.28.1-1.21.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1015871,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/krypton_fnp-neoforge-1.21.1-0.2.28.1-1.21.1.jar",
+            "MD5": "1c215ed088f6d5a32d17656b089bae94",
+            "path": "mods/krypton_fnp-neoforge-1.21.1-0.2.28.1-1.21.1.jar"
+          }
+        },
+        {
+          "id": "laserbridges-1.21.1-neoforge-5.3.jar",
+          "name": "laserbridges-1.21.1-neoforge-5.3.jar",
+          "type": "File",
+          "artifact": {
+            "size": 199979,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/laserbridges-1.21.1-neoforge-5.3.jar",
+            "MD5": "cca0696f518b68808e9f3a536f8ec21c",
+            "path": "mods/laserbridges-1.21.1-neoforge-5.3.jar"
+          }
+        },
+        {
+          "id": "libraryferret-neoforge-1.21.1-4.0.0.jar",
+          "name": "libraryferret-neoforge-1.21.1-4.0.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 139416,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/libraryferret-neoforge-1.21.1-4.0.0.jar",
+            "MD5": "bf40dfc2ea22d606a9caf2953f299cc9",
+            "path": "mods/libraryferret-neoforge-1.21.1-4.0.0.jar"
+          }
+        },
+        {
+          "id": "limitedchunks-1.21-4.1.jar",
+          "name": "limitedchunks-1.21-4.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 16692,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/limitedchunks-1.21-4.1.jar",
+            "MD5": "ab430864559bd8b7a3c7ccf8e024ef19",
+            "path": "mods/limitedchunks-1.21-4.1.jar"
+          }
+        },
+        {
+          "id": "linkingbooks-1.21.1-0.8.2.2-neoforge.jar",
+          "name": "linkingbooks-1.21.1-0.8.2.2-neoforge.jar",
+          "type": "File",
+          "artifact": {
+            "size": 4158292,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/linkingbooks-1.21.1-0.8.2.2-neoforge.jar",
+            "MD5": "8e8e103367b4a91f55b2c0edc29e7356",
+            "path": "mods/linkingbooks-1.21.1-0.8.2.2-neoforge.jar"
+          }
+        },
+        {
+          "id": "lithereal-neoforge-1.6.0.jar",
+          "name": "lithereal-neoforge-1.6.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 4144163,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/lithereal-neoforge-1.6.0.jar",
+            "MD5": "8638a9ff0e2f8e3fe061c786a5fce13d",
+            "path": "mods/lithereal-neoforge-1.6.0.jar"
+          }
+        },
+        {
+          "id": "lmft-1.1.1+1.21.9-neoforge.jar",
+          "name": "lmft-1.1.1+1.21.9-neoforge.jar",
+          "type": "File",
+          "artifact": {
+            "size": 78624,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/lmft-1.1.1+1.21.9-neoforge.jar",
+            "MD5": "bbce0f41ed77cdec33fe68dd05c1ceff",
+            "path": "mods/lmft-1.1.1+1.21.9-neoforge.jar"
+          }
+        },
+        {
+          "id": "lodestone-1.21.1-1.8.2.jar",
+          "name": "lodestone-1.21.1-1.8.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 818829,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/lodestone-1.21.1-1.8.2.jar",
+            "MD5": "de0e38b222129dc010a7ffee59a07ea5",
+            "path": "mods/lodestone-1.21.1-1.8.2.jar"
+          }
+        },
+        {
+          "id": "logbegone-neoforge-1.21.1-1.0.3.jar",
+          "name": "logbegone-neoforge-1.21.1-1.0.3.jar",
+          "type": "File",
+          "artifact": {
+            "size": 73237,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/logbegone-neoforge-1.21.1-1.0.3.jar",
+            "MD5": "bcb679479b36762c5d98ba06479842a2",
+            "path": "mods/logbegone-neoforge-1.21.1-1.0.3.jar"
+          }
+        },
+        {
+          "id": "lootintegrations-1.21.1-4.7.jar",
+          "name": "lootintegrations-1.21.1-4.7.jar",
+          "type": "File",
+          "artifact": {
+            "size": 36966,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/lootintegrations-1.21.1-4.7.jar",
+            "MD5": "de033387fe1955841bea50360aec0315",
+            "path": "mods/lootintegrations-1.21.1-4.7.jar"
+          }
+        },
+        {
+          "id": "lootr-neoforge-1.21.1-1.11.37.121.jar",
+          "name": "lootr-neoforge-1.21.1-1.11.37.121.jar",
+          "type": "File",
+          "artifact": {
+            "size": 982683,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/lootr-neoforge-1.21.1-1.11.37.121.jar",
+            "MD5": "c1b256fa951408b7018a56deda434b12",
+            "path": "mods/lootr-neoforge-1.21.1-1.11.37.121.jar"
+          }
+        },
+        {
+          "id": "magic_vibe_decorations-1.0.7-neoforge-1.21.1.jar",
+          "name": "magic_vibe_decorations-1.0.7-neoforge-1.21.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1856768,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/magic_vibe_decorations-1.0.7-neoforge-1.21.1.jar",
+            "MD5": "146c90665d9b147f96399c1bc53e4119",
+            "path": "mods/magic_vibe_decorations-1.0.7-neoforge-1.21.1.jar"
+          }
+        },
+        {
+          "id": "man_of_many_planes-0.2.1+1.21.1-neoforge.jar",
+          "name": "man_of_many_planes-0.2.1+1.21.1-neoforge.jar",
+          "type": "File",
+          "artifact": {
+            "size": 725743,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/man_of_many_planes-0.2.1+1.21.1-neoforge.jar",
+            "MD5": "dc2d5057c84b1a20e72bdc742598b37c",
+            "path": "mods/man_of_many_planes-0.2.1+1.21.1-neoforge.jar"
+          }
+        },
+        {
+          "id": "mctradepost-1.05.024-1.21.1.jar",
+          "name": "mctradepost-1.05.024-1.21.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 5205233,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/mctradepost-1.05.024-1.21.1.jar",
+            "MD5": "f61e1601fd24587dde77f69e11d8bb5d",
+            "path": "mods/mctradepost-1.05.024-1.21.1.jar"
+          }
+        },
+        {
+          "id": "megacells-4.11.0.jar",
+          "name": "megacells-4.11.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1137276,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/megacells-4.11.0.jar",
+            "MD5": "cd43745a94507315d30d80f2c345de72",
+            "path": "mods/megacells-4.11.0.jar"
+          }
+        },
+        {
+          "id": "metallurgylib-2.0.3-neoforge-1.21.1.jar",
+          "name": "metallurgylib-2.0.3-neoforge-1.21.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 186332,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/metallurgylib-2.0.3-neoforge-1.21.1.jar",
+            "MD5": "927e27c22d0edfdca633b2af3589f181",
+            "path": "mods/metallurgylib-2.0.3-neoforge-1.21.1.jar"
+          }
+        },
+        {
+          "id": "minecolonies-1.1.1343-1.21.1-snapshot.jar",
+          "name": "minecolonies-1.1.1343-1.21.1-snapshot.jar",
+          "type": "File",
+          "artifact": {
+            "size": 77935743,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/minecolonies-1.1.1343-1.21.1-snapshot.jar",
+            "MD5": "ed3211c8b8735003a212c1f59d190ef5",
+            "path": "mods/minecolonies-1.1.1343-1.21.1-snapshot.jar"
+          }
+        },
+        {
+          "id": "modernfix-neoforge-5.27.14+mc1.21.1.jar",
+          "name": "modernfix-neoforge-5.27.14+mc1.21.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 589839,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/modernfix-neoforge-5.27.14+mc1.21.1.jar",
+            "MD5": "29a4f5a367e671d08c0c7e2ec75b2224",
+            "path": "mods/modernfix-neoforge-5.27.14+mc1.21.1.jar"
+          }
+        },
+        {
+          "id": "modonomicon-1.21.1-neoforge-1.120.1.jar",
+          "name": "modonomicon-1.21.1-neoforge-1.120.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 2403998,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/modonomicon-1.21.1-neoforge-1.120.1.jar",
+            "MD5": "bbffe83665d0b3f3ee8eed969244420a",
+            "path": "mods/modonomicon-1.21.1-neoforge-1.120.1.jar"
+          }
+        },
+        {
+          "id": "modopedia-neoforge-1.21.1-1.1.11.jar",
+          "name": "modopedia-neoforge-1.21.1-1.1.11.jar",
+          "type": "File",
+          "artifact": {
+            "size": 848703,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/modopedia-neoforge-1.21.1-1.1.11.jar",
+            "MD5": "ba4dcadd38ef5e1953c1ca61769f437e",
+            "path": "mods/modopedia-neoforge-1.21.1-1.1.11.jar"
+          }
+        },
+        {
+          "id": "modular-routers-13.2.5+mc1.21.1.jar",
+          "name": "modular-routers-13.2.5+mc1.21.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1285785,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/modular-routers-13.2.5+mc1.21.1.jar",
+            "MD5": "5a58cd21a358b074e02f056faea17514",
+            "path": "mods/modular-routers-13.2.5+mc1.21.1.jar"
+          }
+        },
+        {
+          "id": "monolib-neoforge-1.21.1-4.0.2.jar",
+          "name": "monolib-neoforge-1.21.1-4.0.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 167568,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/monolib-neoforge-1.21.1-4.0.2.jar",
+            "MD5": "b26dd2adeb9e0987fc61d3f30eb1a5fc",
+            "path": "mods/monolib-neoforge-1.21.1-4.0.2.jar"
+          }
+        },
+        {
+          "id": "morefunctionalstorage-1.2.3.jar",
+          "name": "morefunctionalstorage-1.2.3.jar",
+          "type": "File",
+          "artifact": {
+            "size": 151287,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/morefunctionalstorage-1.2.3.jar",
+            "MD5": "4478e40c88f5c6d8b890c9c5bbfbe4d1",
+            "path": "mods/morefunctionalstorage-1.2.3.jar"
+          }
+        },
+        {
+          "id": "movingelevators-1.4.12-neoforge-mc1.21.jar",
+          "name": "movingelevators-1.4.12-neoforge-mc1.21.jar",
+          "type": "File",
+          "artifact": {
+            "size": 332699,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/movingelevators-1.4.12-neoforge-mc1.21.jar",
+            "MD5": "364211ac82c2b19b46f4b85b1561b7f1",
+            "path": "mods/movingelevators-1.4.12-neoforge-mc1.21.jar"
+          }
+        },
+        {
+          "id": "multibeds-neoforge-1.21.1-1.0.jar",
+          "name": "multibeds-neoforge-1.21.1-1.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1098333,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/multibeds-neoforge-1.21.1-1.0.jar",
+            "MD5": "ae2fba19bb016f3940f03f1683dd4c93",
+            "path": "mods/multibeds-neoforge-1.21.1-1.0.jar"
+          }
+        },
+        {
+          "id": "multipiston-1.2.58-1.21.1.jar",
+          "name": "multipiston-1.2.58-1.21.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 34139,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/multipiston-1.2.58-1.21.1.jar",
+            "MD5": "9f4187df6af3852c7f2f93fd3a7c52a1",
+            "path": "mods/multipiston-1.2.58-1.21.1.jar"
+          }
+        },
+        {
+          "id": "mythrais-5.0.3-1.21.1-neo-beta5.jar",
+          "name": "mythrais-5.0.3-1.21.1-neo-beta5.jar",
+          "type": "File",
+          "artifact": {
+            "size": 9425558,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/mythrais-5.0.3-1.21.1-neo-beta5.jar",
+            "MD5": "f87ce3241a0f10629359470f8cfd70f9",
+            "path": "mods/mythrais-5.0.3-1.21.1-neo-beta5.jar"
+          }
+        },
+        {
+          "id": "netherdepthsupgrade-3.1.8-1.21.jar",
+          "name": "netherdepthsupgrade-3.1.8-1.21.jar",
+          "type": "File",
+          "artifact": {
+            "size": 585562,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/netherdepthsupgrade-3.1.8-1.21.jar",
+            "MD5": "f8cddb41a852b9168b7830c3fbdb4ce6",
+            "path": "mods/netherdepthsupgrade-3.1.8-1.21.jar"
+          }
+        },
+        {
+          "id": "occultism-1.21.1-neoforge-1.223.0.jar",
+          "name": "occultism-1.21.1-neoforge-1.223.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 6946398,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/occultism-1.21.1-neoforge-1.223.0.jar",
+            "MD5": "f5f44ee754b856dc35a329f318696d39",
+            "path": "mods/occultism-1.21.1-neoforge-1.223.0.jar"
+          }
+        },
+        {
+          "id": "oritech-neoforge-1.21.1-1.2.8.jar",
+          "name": "oritech-neoforge-1.21.1-1.2.8.jar",
+          "type": "File",
+          "artifact": {
+            "size": 10986007,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/oritech-neoforge-1.21.1-1.2.8.jar",
+            "MD5": "682cbb56c3ace22b8f01b4400e28ffb4",
+            "path": "mods/oritech-neoforge-1.21.1-1.2.8.jar"
+          }
+        },
+        {
+          "id": "oritechthings-0.0.44.jar",
+          "name": "oritechthings-0.0.44.jar",
+          "type": "File",
+          "artifact": {
+            "size": 398238,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/oritechthings-0.0.44.jar",
+            "MD5": "97d4280837df41bf4c3a7494ef665e41",
+            "path": "mods/oritechthings-0.0.44.jar"
+          }
+        },
+        {
+          "id": "patterned_mosaics-1.0.0-neoforge-1.21.1.jar",
+          "name": "patterned_mosaics-1.0.0-neoforge-1.21.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 514655,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/patterned_mosaics-1.0.0-neoforge-1.21.1.jar",
+            "MD5": "5069caf3b9941bfdd10159ed0d72810b",
+            "path": "mods/patterned_mosaics-1.0.0-neoforge-1.21.1.jar"
+          }
+        },
+        {
+          "id": "pipe_connector-neoforge-0.5.28.jar",
+          "name": "pipe_connector-neoforge-0.5.28.jar",
+          "type": "File",
+          "artifact": {
+            "size": 221260,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/pipe_connector-neoforge-0.5.28.jar",
+            "MD5": "eb2583a7bfdcb629b8df02e246fa2c14",
+            "path": "mods/pipe_connector-neoforge-0.5.28.jar"
+          }
+        },
+        {
+          "id": "pipez-neoforge-1.21.1-1.2.17.jar",
+          "name": "pipez-neoforge-1.21.1-1.2.17.jar",
+          "type": "File",
+          "artifact": {
+            "size": 451471,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/pipez-neoforge-1.21.1-1.2.17.jar",
+            "MD5": "29bdfe1f56cd7a78c8bfbbac570598c0",
+            "path": "mods/pipez-neoforge-1.21.1-1.2.17.jar"
+          }
+        },
+        {
+          "id": "player-animation-lib-forge-2.0.4+1.21.1.jar",
+          "name": "player-animation-lib-forge-2.0.4+1.21.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 203149,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/player-animation-lib-forge-2.0.4+1.21.1.jar",
+            "MD5": "ecb81c9479605db12a77bea774b88406",
+            "path": "mods/player-animation-lib-forge-2.0.4+1.21.1.jar"
+          }
+        },
+        {
+          "id": "pneumaticcraft-repressurized-8.2.20+mc1.21.1.jar",
+          "name": "pneumaticcraft-repressurized-8.2.20+mc1.21.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 11779628,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/pneumaticcraft-repressurized-8.2.20+mc1.21.1.jar",
+            "MD5": "0d9278a639debe003e3160fd63ed63c4",
+            "path": "mods/pneumaticcraft-repressurized-8.2.20+mc1.21.1.jar"
+          }
+        },
+        {
+          "id": "polyeng-0.4.1.jar",
+          "name": "polyeng-0.4.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 20130,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/polyeng-0.4.1.jar",
+            "MD5": "67f09141899fdd8b65182ea8ad3f8ac4",
+            "path": "mods/polyeng-0.4.1.jar"
+          }
+        },
+        {
+          "id": "polymorph-neoforge-1.1.0+1.21.1.jar",
+          "name": "polymorph-neoforge-1.1.0+1.21.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 174972,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/polymorph-neoforge-1.1.0+1.21.1.jar",
+            "MD5": "2368e0c92ae882677bbf4b87418656b9",
+            "path": "mods/polymorph-neoforge-1.1.0+1.21.1.jar"
+          }
+        },
+        {
+          "id": "portablemobs-1.2.1-neoforge-mc1.21.jar",
+          "name": "portablemobs-1.2.1-neoforge-mc1.21.jar",
+          "type": "File",
+          "artifact": {
+            "size": 97461,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/portablemobs-1.2.1-neoforge-mc1.21.jar",
+            "MD5": "49cdddbd69a96b5566490766c20f2c7b",
+            "path": "mods/portablemobs-1.2.1-neoforge-mc1.21.jar"
+          }
+        },
+        {
+          "id": "potentials-neoforge-1.21-0.7.1.jar",
+          "name": "potentials-neoforge-1.21-0.7.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 90809,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/potentials-neoforge-1.21-0.7.1.jar",
+            "MD5": "9073f8120305fc24e4cbeeffb86b4349",
+            "path": "mods/potentials-neoforge-1.21-0.7.1.jar"
+          }
+        },
+        {
+          "id": "prickle-neoforge-1.21.1-21.1.11.jar",
+          "name": "prickle-neoforge-1.21.1-21.1.11.jar",
+          "type": "File",
+          "artifact": {
+            "size": 84812,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/prickle-neoforge-1.21.1-21.1.11.jar",
+            "MD5": "533c154fb306cd8043564ee1533873ce",
+            "path": "mods/prickle-neoforge-1.21.1-21.1.11.jar"
+          }
+        },
+        {
+          "id": "project_alpha-1.4-neoforge-1.21.1.jar",
+          "name": "project_alpha-1.4-neoforge-1.21.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 4761540,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/project_alpha-1.4-neoforge-1.21.1.jar",
+            "MD5": "2e4529672d19d7ed915f3115a963be49",
+            "path": "mods/project_alpha-1.4-neoforge-1.21.1.jar"
+          }
+        },
+        {
+          "id": "projectresonance-1.21.1 v1.5.4.6.jar",
+          "name": "projectresonance-1.21.1 v1.5.4.6.jar",
+          "type": "File",
+          "artifact": {
+            "size": 2743159,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/projectresonance-1.21.1%20v1.5.4.6.jar",
+            "MD5": "8d137a6807909470c7eb024dfc6820d0",
+            "path": "mods/projectresonance-1.21.1 v1.5.4.6.jar"
+          }
+        },
+        {
+          "id": "railcraft-reborn-1.21.1-1.2.10.jar",
+          "name": "railcraft-reborn-1.21.1-1.2.10.jar",
+          "type": "File",
+          "artifact": {
+            "size": 5290986,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/railcraft-reborn-1.21.1-1.2.10.jar",
+            "MD5": "976c05843638a2ad321a2de564ee323a",
+            "path": "mods/railcraft-reborn-1.21.1-1.2.10.jar"
+          }
+        },
+        {
+          "id": "rechiseled-1.2.5-neoforge-mc1.21.jar",
+          "name": "rechiseled-1.2.5-neoforge-mc1.21.jar",
+          "type": "File",
+          "artifact": {
+            "size": 11498611,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/rechiseled-1.2.5-neoforge-mc1.21.jar",
+            "MD5": "24da3744ed42ddf8046eb38c0534f78b",
+            "path": "mods/rechiseled-1.2.5-neoforge-mc1.21.jar"
+          }
+        },
+        {
+          "id": "reddensstonelantern-1.0.4-neoforge-1.21.1.jar",
+          "name": "reddensstonelantern-1.0.4-neoforge-1.21.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 617092,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/reddensstonelantern-1.0.4-neoforge-1.21.1.jar",
+            "MD5": "ec8e1f008b5d6316d0d7cfe38be22539",
+            "path": "mods/reddensstonelantern-1.0.4-neoforge-1.21.1.jar"
+          }
+        },
+        {
+          "id": "refurbished_furniture-neoforge-1.21.1-1.0.22.jar",
+          "name": "refurbished_furniture-neoforge-1.21.1-1.0.22.jar",
+          "type": "File",
+          "artifact": {
+            "size": 7133477,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/refurbished_furniture-neoforge-1.21.1-1.0.22.jar",
+            "MD5": "7379bc72b92f838949c073961dc72351",
+            "path": "mods/refurbished_furniture-neoforge-1.21.1-1.0.22.jar"
+          }
+        },
+        {
+          "id": "resourcefulconfig-neoforge-1.21-3.0.11.jar",
+          "name": "resourcefulconfig-neoforge-1.21-3.0.11.jar",
+          "type": "File",
+          "artifact": {
+            "size": 341009,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/resourcefulconfig-neoforge-1.21-3.0.11.jar",
+            "MD5": "84ff2805a591b10d22b7e0c69b44246c",
+            "path": "mods/resourcefulconfig-neoforge-1.21-3.0.11.jar"
+          }
+        },
+        {
+          "id": "resourcefullib-neoforge-1.21-3.0.12.jar",
+          "name": "resourcefullib-neoforge-1.21-3.0.12.jar",
+          "type": "File",
+          "artifact": {
+            "size": 484332,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/resourcefullib-neoforge-1.21-3.0.12.jar",
+            "MD5": "32da88903167d24bb20febeeb2c79225",
+            "path": "mods/resourcefullib-neoforge-1.21-3.0.12.jar"
+          }
+        },
+        {
+          "id": "resourcehud-2.4.jar",
+          "name": "resourcehud-2.4.jar",
+          "type": "File",
+          "artifact": {
+            "size": 128584,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/resourcehud-2.4.jar",
+            "MD5": "f0e71131f455be90e2dc3a8b3b5dc02f",
+            "path": "mods/resourcehud-2.4.jar"
+          }
+        },
+        {
+          "id": "rhino-2101.2.7-build.85.jar",
+          "name": "rhino-2101.2.7-build.85.jar",
+          "type": "File",
+          "artifact": {
+            "size": 882075,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/rhino-2101.2.7-build.85.jar",
+            "MD5": "f5df23fab1aef88b69f67776e0f79904",
+            "path": "mods/rhino-2101.2.7-build.85.jar"
+          }
+        },
+        {
+          "id": "rpg_companions_tiny_dragons-0.0.5-neoforge-1.21.1.jar",
+          "name": "rpg_companions_tiny_dragons-0.0.5-neoforge-1.21.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 960913,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/rpg_companions_tiny_dragons-0.0.5-neoforge-1.21.1.jar",
+            "MD5": "058885bdc53b84c59db739ab45586504",
+            "path": "mods/rpg_companions_tiny_dragons-0.0.5-neoforge-1.21.1.jar"
+          }
+        },
+        {
+          "id": "rustic_engineer-1.1.4-neoforge-1.21.1.jar",
+          "name": "rustic_engineer-1.1.4-neoforge-1.21.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1674674,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/rustic_engineer-1.1.4-neoforge-1.21.1.jar",
+            "MD5": "fd7cd4460cbc11d26bd2cb423c6a9264",
+            "path": "mods/rustic_engineer-1.1.4-neoforge-1.21.1.jar"
+          }
+        },
+        {
+          "id": "servercore-neoforge-1.5.19+1.21.1.jar",
+          "name": "servercore-neoforge-1.5.19+1.21.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1462674,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/servercore-neoforge-1.5.19+1.21.1.jar",
+            "MD5": "4fc82f2fe4ad2f93fcbe07130428101b",
+            "path": "mods/servercore-neoforge-1.5.19+1.21.1.jar"
+          }
+        },
+        {
+          "id": "shetiphiancore-neoforge-1.21.1-1.1.jar",
+          "name": "shetiphiancore-neoforge-1.21.1-1.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 478719,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/shetiphiancore-neoforge-1.21.1-1.1.jar",
+            "MD5": "de27eb16bf1c956d5dc5deee30ebec2f",
+            "path": "mods/shetiphiancore-neoforge-1.21.1-1.1.jar"
+          }
+        },
+        {
+          "id": "simplemagnets-1.1.12c-neoforge-mc1.21.jar",
+          "name": "simplemagnets-1.1.12c-neoforge-mc1.21.jar",
+          "type": "File",
+          "artifact": {
+            "size": 146262,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/simplemagnets-1.1.12c-neoforge-mc1.21.jar",
+            "MD5": "bde093bc00d237541a04b5a40d55b673",
+            "path": "mods/simplemagnets-1.1.12c-neoforge-mc1.21.jar"
+          }
+        },
+        {
+          "id": "simplylight-1.5.3+1.21.1-b4.jar",
+          "name": "simplylight-1.5.3+1.21.1-b4.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1103352,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/simplylight-1.5.3+1.21.1-b4.jar",
+            "MD5": "b16de230f2d97bb791164277212091c5",
+            "path": "mods/simplylight-1.5.3+1.21.1-b4.jar"
+          }
+        },
+        {
+          "id": "smallcolonies 1.21.1 v1.8.jar",
+          "name": "smallcolonies 1.21.1 v1.8.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1861522,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/smallcolonies%201.21.1%20v1.8.jar",
+            "MD5": "3b07e87de23ef3ac0b51c604410ffac5",
+            "path": "mods/smallcolonies 1.21.1 v1.8.jar"
+          }
+        },
+        {
+          "id": "solcarrot-1.21.1-1.16.6.jar",
+          "name": "solcarrot-1.21.1-1.16.6.jar",
+          "type": "File",
+          "artifact": {
+            "size": 105355,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/solcarrot-1.21.1-1.16.6.jar",
+            "MD5": "df768d5560ccfb443a33fc6f73671e3b",
+            "path": "mods/solcarrot-1.21.1-1.16.6.jar"
+          }
+        },
+        {
+          "id": "sophisticatedcore-1.21.1-1.4.62.2079.jar",
+          "name": "sophisticatedcore-1.21.1-1.4.62.2079.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1649969,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/sophisticatedcore-1.21.1-1.4.62.2079.jar",
+            "MD5": "4e740f2d0c6f4f2c915396580345864a",
+            "path": "mods/sophisticatedcore-1.21.1-1.4.62.2079.jar"
+          }
+        },
+        {
+          "id": "sophisticatedstorage-1.21.1-1.5.65.1907.jar",
+          "name": "sophisticatedstorage-1.21.1-1.5.65.1907.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1782735,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/sophisticatedstorage-1.21.1-1.5.65.1907.jar",
+            "MD5": "1e96df2dd69a67f554ea5d0314dbde05",
+            "path": "mods/sophisticatedstorage-1.21.1-1.5.65.1907.jar"
+          }
+        },
+        {
+          "id": "spark-1.10.124-neoforge.jar",
+          "name": "spark-1.10.124-neoforge.jar",
+          "type": "File",
+          "artifact": {
+            "size": 3642581,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/spark-1.10.124-neoforge.jar",
+            "MD5": "a61dd250e618f8fd62fc6b0943831c50",
+            "path": "mods/spark-1.10.124-neoforge.jar"
+          }
+        },
+        {
+          "id": "stackrefill-1.21.1-4.9.jar",
+          "name": "stackrefill-1.21.1-4.9.jar",
+          "type": "File",
+          "artifact": {
+            "size": 46964,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/stackrefill-1.21.1-4.9.jar",
+            "MD5": "273174368b609bde49b5e7b272c24dd5",
+            "path": "mods/stackrefill-1.21.1-4.9.jar"
+          }
+        },
+        {
+          "id": "stateobserver-neoforge-1.21.1-1.6.4.jar",
+          "name": "stateobserver-neoforge-1.21.1-1.6.4.jar",
+          "type": "File",
+          "artifact": {
+            "size": 14419,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/stateobserver-neoforge-1.21.1-1.6.4.jar",
+            "MD5": "e3c1d77f151066724bc87b88256540bd",
+            "path": "mods/stateobserver-neoforge-1.21.1-1.6.4.jar"
+          }
+        },
+        {
+          "id": "storageracks-1.13-1.21.1-release.jar",
+          "name": "storageracks-1.13-1.21.1-release.jar",
+          "type": "File",
+          "artifact": {
+            "size": 573682,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/storageracks-1.13-1.21.1-release.jar",
+            "MD5": "59e776264660dbdaa14c6209b5025a89",
+            "path": "mods/storageracks-1.13-1.21.1-release.jar"
+          }
+        },
+        {
+          "id": "structurize-1.0.831-1.21.1-snapshot.jar",
+          "name": "structurize-1.0.831-1.21.1-snapshot.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1064061,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/structurize-1.0.831-1.21.1-snapshot.jar",
+            "MD5": "348846c02cca66ebbcb396217469a007",
+            "path": "mods/structurize-1.0.831-1.21.1-snapshot.jar"
+          }
+        },
+        {
+          "id": "stylecolonies-1.15.54-1.21.1.jar",
+          "name": "stylecolonies-1.15.54-1.21.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 31238191,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/stylecolonies-1.15.54-1.21.1.jar",
+            "MD5": "f650c921ea1a62632d39246fc069b9ff",
+            "path": "mods/stylecolonies-1.15.54-1.21.1.jar"
+          }
+        },
+        {
+          "id": "supermartijn642configlib-1.1.8-neoforge-mc1.21.jar",
+          "name": "supermartijn642configlib-1.1.8-neoforge-mc1.21.jar",
+          "type": "File",
+          "artifact": {
+            "size": 207514,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/supermartijn642configlib-1.1.8-neoforge-mc1.21.jar",
+            "MD5": "0428149c5db7bad43d75e6f758f47678",
+            "path": "mods/supermartijn642configlib-1.1.8-neoforge-mc1.21.jar"
+          }
+        },
+        {
+          "id": "supermartijn642corelib-1.1.21-neoforge-mc1.21.jar",
+          "name": "supermartijn642corelib-1.1.21-neoforge-mc1.21.jar",
+          "type": "File",
+          "artifact": {
+            "size": 558371,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/supermartijn642corelib-1.1.21-neoforge-mc1.21.jar",
+            "MD5": "8da575ef57766fd02875b10fccae3aca",
+            "path": "mods/supermartijn642corelib-1.1.21-neoforge-mc1.21.jar"
+          }
+        },
+        {
+          "id": "swashbucklers! 2.6.6C 1.21.1 neoforge.jar",
+          "name": "swashbucklers! 2.6.6C 1.21.1 neoforge.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1557167,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/swashbucklers!%202.6.6C%201.21.1%20neoforge.jar",
+            "MD5": "45cb931bee821a5950dad5bf76f01664",
+            "path": "mods/swashbucklers! 2.6.6C 1.21.1 neoforge.jar"
+          }
+        },
+        {
+          "id": "sword_and_kingdom_schematic-1.6.jar",
+          "name": "sword_and_kingdom_schematic-1.6.jar",
+          "type": "File",
+          "artifact": {
+            "size": 4038156,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/sword_and_kingdom_schematic-1.6.jar",
+            "MD5": "d71d836eb8b7f692cd2c68e8a1ccc2c6",
+            "path": "mods/sword_and_kingdom_schematic-1.6.jar"
+          }
+        },
+        {
+          "id": "taxbt-3.2.0-neoforge-1.21.1.jar",
+          "name": "taxbt-3.2.0-neoforge-1.21.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1034405,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/taxbt-3.2.0-neoforge-1.21.1.jar",
+            "MD5": "e767bf1efcd16ed58759bc98c8e6daf5",
+            "path": "mods/taxbt-3.2.0-neoforge-1.21.1.jar"
+          }
+        },
+        {
+          "id": "tfbr-1.21.1-4.2.2.jar",
+          "name": "tfbr-1.21.1-4.2.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 45647,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/tfbr-1.21.1-4.2.2.jar",
+            "MD5": "3efb876fb085645690c0d509602dc136",
+            "path": "mods/tfbr-1.21.1-4.2.2.jar"
+          }
+        },
+        {
+          "id": "thaumon-neoforge-2.3.0+1.21.jar",
+          "name": "thaumon-neoforge-2.3.0+1.21.jar",
+          "type": "File",
+          "artifact": {
+            "size": 608500,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/thaumon-neoforge-2.3.0+1.21.jar",
+            "MD5": "f33e21bd7f06404ba76dfb10bc79b8d1",
+            "path": "mods/thaumon-neoforge-2.3.0+1.21.jar"
+          }
+        },
+        {
+          "id": "tide-neoforge-1.21.1-2.1.jar",
+          "name": "tide-neoforge-1.21.1-2.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 2118961,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/tide-neoforge-1.21.1-2.1.jar",
+            "MD5": "9ff051e65f93b39ea2a1de1f309da620",
+            "path": "mods/tide-neoforge-1.21.1-2.1.jar"
+          }
+        },
+        {
+          "id": "tinted_bricks-1.0.3-neoforge-1.21.1.jar",
+          "name": "tinted_bricks-1.0.3-neoforge-1.21.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 517989,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/tinted_bricks-1.0.3-neoforge-1.21.1.jar",
+            "MD5": "fb8c7551d4662697690b192ccbeab553",
+            "path": "mods/tinted_bricks-1.0.3-neoforge-1.21.1.jar"
+          }
+        },
+        {
+          "id": "tinted_dyes-2.1.2-neoforge-1.21.1.jar",
+          "name": "tinted_dyes-2.1.2-neoforge-1.21.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 155802,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/tinted_dyes-2.1.2-neoforge-1.21.1.jar",
+            "MD5": "4a1ae46c0003d567a09b777ab3ca694d",
+            "path": "mods/tinted_dyes-2.1.2-neoforge-1.21.1.jar"
+          }
+        },
+        {
+          "id": "tinted_grass-1.0.9-neoforge-1.21.1.jar",
+          "name": "tinted_grass-1.0.9-neoforge-1.21.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1089684,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/tinted_grass-1.0.9-neoforge-1.21.1.jar",
+            "MD5": "65e7948a7f8d7ad399c2e9c75ec38002",
+            "path": "mods/tinted_grass-1.0.9-neoforge-1.21.1.jar"
+          }
+        },
+        {
+          "id": "tinted_lamps-1.2.0-neoforge-1.21.1.jar",
+          "name": "tinted_lamps-1.2.0-neoforge-1.21.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1256949,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/tinted_lamps-1.2.0-neoforge-1.21.1.jar",
+            "MD5": "b17ac6e9fba6124c2221a47f2f8efe4d",
+            "path": "mods/tinted_lamps-1.2.0-neoforge-1.21.1.jar"
+          }
+        },
+        {
+          "id": "tinted_planks-5.1.1-neoforge-1.21.1.jar",
+          "name": "tinted_planks-5.1.1-neoforge-1.21.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1996649,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/tinted_planks-5.1.1-neoforge-1.21.1.jar",
+            "MD5": "fcc82d4b38b02134ee5a5cab56181bed",
+            "path": "mods/tinted_planks-5.1.1-neoforge-1.21.1.jar"
+          }
+        },
+        {
+          "id": "tinted_sands-1.0.6-neoforge-1.21.1.jar",
+          "name": "tinted_sands-1.0.6-neoforge-1.21.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1860116,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/tinted_sands-1.0.6-neoforge-1.21.1.jar",
+            "MD5": "af98aba9aa258509856c8545a66f0ad3",
+            "path": "mods/tinted_sands-1.0.6-neoforge-1.21.1.jar"
+          }
+        },
+        {
+          "id": "tinted_torches-2.0.6-neoforge-1.21.1.jar",
+          "name": "tinted_torches-2.0.6-neoforge-1.21.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 2553349,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/tinted_torches-2.0.6-neoforge-1.21.1.jar",
+            "MD5": "155f981e588d8296278f5eba534a4441",
+            "path": "mods/tinted_torches-2.0.6-neoforge-1.21.1.jar"
+          }
+        },
+        {
+          "id": "titanium-1.21-4.0.43.jar",
+          "name": "titanium-1.21-4.0.43.jar",
+          "type": "File",
+          "artifact": {
+            "size": 605765,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/titanium-1.21-4.0.43.jar",
+            "MD5": "5755c1829e9630f2212e1dbe780bd203",
+            "path": "mods/titanium-1.21-4.0.43.jar"
+          }
+        },
+        {
+          "id": "tofucraft-1.21.1-12.20.4.0.jar",
+          "name": "tofucraft-1.21.1-12.20.4.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 10644587,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/tofucraft-1.21.1-12.20.4.0.jar",
+            "MD5": "edf73821b8f461a76fc328ca565caab8",
+            "path": "mods/tofucraft-1.21.1-12.20.4.0.jar"
+          }
+        },
+        {
+          "id": "torchmaster-neoforge-1.21.1-21.1.9.jar",
+          "name": "torchmaster-neoforge-1.21.1-21.1.9.jar",
+          "type": "File",
+          "artifact": {
+            "size": 130605,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/torchmaster-neoforge-1.21.1-21.1.9.jar",
+            "MD5": "f15f68010c04bad2f588f91b490b8f53",
+            "path": "mods/torchmaster-neoforge-1.21.1-21.1.9.jar"
+          }
+        },
+        {
+          "id": "towntalk-1.2.0.jar",
+          "name": "towntalk-1.2.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 52301863,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/towntalk-1.2.0.jar",
+            "MD5": "f9b1214017704f1f6eb0b97521eeeb45",
+            "path": "mods/towntalk-1.2.0.jar"
+          }
+        },
+        {
+          "id": "toybox-1.0.5.jar",
+          "name": "toybox-1.0.5.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1061929,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/toybox-1.0.5.jar",
+            "MD5": "c7acff965e586130d99883f594438add",
+            "path": "mods/toybox-1.0.5.jar"
+          }
+        },
+        {
+          "id": "trashslot-neoforge-1.21.1-21.1.11.jar",
+          "name": "trashslot-neoforge-1.21.1-21.1.11.jar",
+          "type": "File",
+          "artifact": {
+            "size": 77535,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/trashslot-neoforge-1.21.1-21.1.11.jar",
+            "MD5": "3de363a7dbc6eadca2ce6fd40531392b",
+            "path": "mods/trashslot-neoforge-1.21.1-21.1.11.jar"
+          }
+        },
+        {
+          "id": "travelersbackpack-neoforge-1.21.1-10.1.36.jar",
+          "name": "travelersbackpack-neoforge-1.21.1-10.1.36.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1421133,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/travelersbackpack-neoforge-1.21.1-10.1.36.jar",
+            "MD5": "a9853f9d1eccacf66d682be47941fe1f",
+            "path": "mods/travelersbackpack-neoforge-1.21.1-10.1.36.jar"
+          }
+        },
+        {
+          "id": "twilightforest-1.21.1-4.8.3345-universal.jar",
+          "name": "twilightforest-1.21.1-4.8.3345-universal.jar",
+          "type": "File",
+          "artifact": {
+            "size": 27154121,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/twilightforest-1.21.1-4.8.3345-universal.jar",
+            "MD5": "c1e465c8b2855902368ff4679e1fc2e7",
+            "path": "mods/twilightforest-1.21.1-4.8.3345-universal.jar"
+          }
+        },
+        {
+          "id": "underwaterenchanting-1.21.1-2.9.jar",
+          "name": "underwaterenchanting-1.21.1-2.9.jar",
+          "type": "File",
+          "artifact": {
+            "size": 32939,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/underwaterenchanting-1.21.1-2.9.jar",
+            "MD5": "f0c61ad88a82f63f1c149ac8f255657f",
+            "path": "mods/underwaterenchanting-1.21.1-2.9.jar"
+          }
+        },
+        {
+          "id": "uranium_compat-0.1.jar",
+          "name": "uranium_compat-0.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 8881,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/uranium_compat-0.1.jar",
+            "MD5": "91bd78b0e3a246b5d3f39bb66cf4db30",
+            "path": "mods/uranium_compat-0.1.jar"
+          }
+        },
+        {
+          "id": "valhelsia_core-neoforge-1.21.1-1.1.5.jar",
+          "name": "valhelsia_core-neoforge-1.21.1-1.1.5.jar",
+          "type": "File",
+          "artifact": {
+            "size": 181277,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/valhelsia_core-neoforge-1.21.1-1.1.5.jar",
+            "MD5": "fa4e50fc4d817c0f9de04d1e8d2418d4",
+            "path": "mods/valhelsia_core-neoforge-1.21.1-1.1.5.jar"
+          }
+        },
+        {
+          "id": "vapourware-1.21.1-0.2.37.jar",
+          "name": "vapourware-1.21.1-0.2.37.jar",
+          "type": "File",
+          "artifact": {
+            "size": 70510,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/vapourware-1.21.1-0.2.37.jar",
+            "MD5": "a874400cb81e791838d2ec041e778ecb",
+            "path": "mods/vapourware-1.21.1-0.2.37.jar"
+          }
+        },
+        {
+          "id": "verseworks-1.3.8.jar",
+          "name": "verseworks-1.3.8.jar",
+          "type": "File",
+          "artifact": {
+            "size": 3833355,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/verseworks-1.3.8.jar",
+            "MD5": "ecd9c74773356fc0a83b0e87bf848878",
+            "path": "mods/verseworks-1.3.8.jar"
+          }
+        },
+        {
+          "id": "volcanicmason-1.0.2.jar",
+          "name": "volcanicmason-1.0.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 171588,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/volcanicmason-1.0.2.jar",
+            "MD5": "0005d8a8af43277ef5d0706fd5be8966",
+            "path": "mods/volcanicmason-1.0.2.jar"
+          }
+        },
+        {
+          "id": "warehouseworkshop-01.00.007.jar",
+          "name": "warehouseworkshop-01.00.007.jar",
+          "type": "File",
+          "artifact": {
+            "size": 114973,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/warehouseworkshop-01.00.007.jar",
+            "MD5": "f318e0f2077d8266a7ca8252b4668529",
+            "path": "mods/warehouseworkshop-01.00.007.jar"
+          }
+        },
+        {
+          "id": "warfare_wings-1.1.4-1.21.1-neoforge.jar",
+          "name": "warfare_wings-1.1.4-1.21.1-neoforge.jar",
+          "type": "File",
+          "artifact": {
+            "size": 29565939,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/warfare_wings-1.1.4-1.21.1-neoforge.jar",
+            "MD5": "930dc0ec9360f582b9e11a49c341ddef",
+            "path": "mods/warfare_wings-1.1.4-1.21.1-neoforge.jar"
+          }
+        },
+        {
+          "id": "weathersettings-1.21-2.1.jar",
+          "name": "weathersettings-1.21-2.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 12670,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/weathersettings-1.21-2.1.jar",
+            "MD5": "ac660736bf75d97658bc7d2544ada017",
+            "path": "mods/weathersettings-1.21-2.1.jar"
+          }
+        },
+        {
+          "id": "yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar",
+          "name": "yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1118651,
+            "url": "https://github.com/qurydem-lab/VaultTec-Launcher/releases/servers/vault_tec_minecolonies-1.21.1/files/mods/yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar",
+            "MD5": "c346120062c3364a0d215c228354030e",
+            "path": "mods/yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar"
+          }
+        }
+      ]
+    }
+  ]
 }
