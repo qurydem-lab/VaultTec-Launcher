@@ -483,6 +483,12 @@ class ProcessBuilder {
                 }
 
             } else if(typeof args[i] === 'string'){
+                // Handle multiple ${library_directory} and ${classpath_separator} replacements in a single string
+                if(args[i].includes('${library_directory}') || args[i].includes('${classpath_separator}')){
+                    args[i] = args[i]
+                        .replace(/\$\{library_directory\}/g, this.libPath)
+                        .replace(/\$\{classpath_separator\}/g, ProcessBuilder.getClasspathSeparator())
+                }
                 if(argDiscovery.test(args[i])){
                     const identifier = args[i].match(argDiscovery)[1]
                     let val = null
@@ -522,7 +528,7 @@ class ProcessBuilder {
                             val = ConfigManager.getGameHeight()
                             break
                         case 'natives_directory':
-                            val = args[i].replace(argDiscovery, tempNativePath)
+                            val = args[i].replace(argDiscovery, path.join(this.gameDir, 'natives'))
                             break
                         case 'launcher_name':
                             val = args[i].replace(argDiscovery, 'Helios-Launcher')
@@ -532,6 +538,12 @@ class ProcessBuilder {
                             break
                         case 'classpath':
                             val = this.classpathArg(mods, tempNativePath).join(ProcessBuilder.getClasspathSeparator())
+                            break
+                        case 'library_directory':
+                            val = args[i].replace(argDiscovery, this.libPath)
+                            break
+                        case 'classpath_separator':
+                            val = args[i].replace(argDiscovery, ProcessBuilder.getClasspathSeparator())
                             break
                     }
                     if(val != null){
@@ -840,7 +852,11 @@ class ProcessBuilder {
         for(let mdl of mdls){
             const type = mdl.rawModule.type
             if(type === Type.ForgeHosted || type === Type.Fabric || type === Type.Library){
-                libs[mdl.getVersionlessMavenIdentifier()] = mdl.getPath()
+                // ForgeHosted artifact is the installer - do NOT add to classpath
+                // Libraries come from MineColonies.json (vanillaManifest)
+                if(type !== Type.ForgeHosted){
+                    libs[mdl.getVersionlessMavenIdentifier()] = mdl.getPath()
+                }
                 if(mdl.subModules.length > 0){
                     const res = this._resolveModuleLibraries(mdl)
                     libs = {...libs, ...res}

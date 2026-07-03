@@ -32,6 +32,30 @@
       },
       "modules": [
         {
+          "id": "net.neoforged:neoforge:21.1.234",
+          "name": "NeoForge 21.1.234",
+          "type": "ForgeHosted",
+          "artifact": {
+            "size": 21441,
+            "MD5": "eb0e100d21defb9fb37d3dfdaacebeff",
+            "url": "http://mickey-reacquire.with.playit.plus:1571/neoforge-21.1.234-version.json",
+            "path": "net/neoforged/neoforge/21.1.234/neoforge-21.1.234-version.json"
+          },
+          "subModules": [
+            {
+              "id": "neoforge-21.1.234-version",
+              "name": "NeoForge 21.1.234 Version Manifest",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 21441,
+                "MD5": "eb0e100d21defb9fb37d3dfdaacebeff",
+                "url": "http://mickey-reacquire.with.playit.plus:1571/neoforge-21.1.234-version.json",
+                "path": "net/neoforged/neoforge/21.1.234/neoforge-21.1.234-version.json"
+              }
+            }
+          ]
+        },
+        {
           "id": "AE2-Things-1.4.2-beta.jar",
           "name": "AE2-Things-1.4.2-beta.jar",
           "type": "File",

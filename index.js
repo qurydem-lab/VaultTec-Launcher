@@ -251,6 +251,7 @@ function createWindow() {
     })*/
 
     win.removeMenu()
+    win.webContents.openDevTools()
 
     win.resizable = true
 
