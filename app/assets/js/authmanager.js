@@ -16,8 +16,67 @@ const { MojangRestAPI, MojangErrorCode } = require('helios-core/mojang')
 const { MicrosoftAuth, MicrosoftErrorCode } = require('helios-core/microsoft')
 const { AZURE_CLIENT_ID }    = require('./ipcconstants')
 const Lang = require('./langloader')
+const got = require('got')
 
 const log = LoggerUtil.getLogger('AuthManager')
+
+// Ely.by auth server
+const ELY_AUTH_URL = 'https://authserver.ely.by/auth'
+
+/**
+ * Authenticate with Ely.by Yggdrasil auth server.
+ */
+async function elyByAuthenticate(username, password, clientToken) {
+    const body = {
+        agent: { name: 'Minecraft', version: 1 },
+        username,
+        password,
+        requestUser: true
+    }
+    if(clientToken) body.clientToken = clientToken
+
+    const response = await got.post(`${ELY_AUTH_URL}/authenticate`, {
+        json: body,
+        responseType: 'json',
+        throwHttpErrors: false
+    })
+    return response
+}
+
+/**
+ * Refresh Ely.by token.
+ */
+async function elyByRefresh(accessToken, clientToken) {
+    const response = await got.post(`${ELY_AUTH_URL}/refresh`, {
+        json: { accessToken, clientToken, requestUser: true },
+        responseType: 'json',
+        throwHttpErrors: false
+    })
+    return response
+}
+
+/**
+ * Validate Ely.by token.
+ */
+async function elyByValidate(accessToken, clientToken) {
+    const response = await got.post(`${ELY_AUTH_URL}/validate`, {
+        json: { accessToken, clientToken },
+        responseType: 'json',
+        throwHttpErrors: false
+    })
+    return response
+}
+
+/**
+ * Invalidate Ely.by token.
+ */
+async function elyByInvalidate(accessToken, clientToken) {
+    await got.post(`${ELY_AUTH_URL}/invalidate`, {
+        json: { accessToken, clientToken },
+        responseType: 'json',
+        throwHttpErrors: false
+    })
+}
 
 // Error messages
 
@@ -164,6 +223,57 @@ exports.addMojangAccount = async function(username, password) {
     } catch (err){
         log.error(err)
         return Promise.reject(mojangErrorDisplayable(MojangErrorCode.UNKNOWN))
+    }
+}
+
+/**
+ * Add an Ely.by account. Authenticates via Ely.by Yggdrasil API.
+ * 
+ * @param {string} username Ely.by username or email.
+ * @param {string} password Account password.
+ * @returns {Promise.<Object>} Resolved authenticated account object.
+ */
+exports.addElyByAccount = async function(username, password) {
+    try {
+        const clientToken = ConfigManager.getClientToken() || require('crypto').randomUUID()
+        const response = await elyByAuthenticate(username, password, clientToken)
+
+        if(response.statusCode === 200) {
+            const session = response.body
+            if(session.selectedProfile != null) {
+                const ret = ConfigManager.addMojangAuthAccount(
+                    session.selectedProfile.id,
+                    session.accessToken,
+                    username,
+                    session.selectedProfile.name
+                )
+                // Mark as elyby type
+                ret.type = 'elyby'
+                ConfigManager.getAuthAccounts()[ret.uuid].type = 'elyby'
+                if(ConfigManager.getClientToken() == null) {
+                    ConfigManager.setClientToken(session.clientToken)
+                }
+                ConfigManager.save()
+                return ret
+            } else {
+                return Promise.reject({
+                    title: 'No profile found',
+                    desc: 'No Minecraft profile is linked to this Ely.by account.'
+                })
+            }
+        } else {
+            const err = response.body
+            return Promise.reject({
+                title: 'Authentication Failed',
+                desc: err.errorMessage || 'Invalid username or password.'
+            })
+        }
+    } catch(err) {
+        log.error(err)
+        return Promise.reject({
+            title: 'Connection Error',
+            desc: 'Could not connect to Ely.by authentication server.'
+        })
     }
 }
 
@@ -413,11 +523,47 @@ async function validateSelectedMicrosoftAccount(){
  * @returns {Promise.<boolean>} Promise which resolves to true if the access token is valid,
  * otherwise false.
  */
+/**
+ * Validate the selected Ely.by account.
+ */
+async function validateSelectedElyByAccount(){
+    const current = ConfigManager.getSelectedAccount()
+    const clientToken = ConfigManager.getClientToken()
+    try {
+        const response = await elyByValidate(current.accessToken, clientToken)
+        if(response.statusCode === 204) {
+            log.info('Ely.by account token validated.')
+            return true
+        }
+        // Try refresh
+        const refreshResponse = await elyByRefresh(current.accessToken, clientToken)
+        if(refreshResponse.statusCode === 200) {
+            ConfigManager.updateMojangAuthAccount(current.uuid, refreshResponse.body.accessToken)
+            ConfigManager.save()
+            log.info('Ely.by account token refreshed.')
+            return true
+        }
+        log.info('Ely.by account token invalid.')
+        return false
+    } catch(err) {
+        log.error('Error validating Ely.by account:', err)
+        return false
+    }
+}
+
+/**
+ * Validate the selected auth account.
+ * 
+ * @returns {Promise.<boolean>} Promise which resolves to true if the access token is valid,
+ * otherwise false.
+ */
 exports.validateSelected = async function(){
     const current = ConfigManager.getSelectedAccount()
 
     if(current.type === 'microsoft') {
         return await validateSelectedMicrosoftAccount()
+    } else if(current.type === 'elyby') {
+        return await validateSelectedElyByAccount()
     } else {
         return await validateSelectedMojangAccount()
     }

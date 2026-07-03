@@ -16,7 +16,7 @@
                     </g>
                 </svg>
                 <span class="loginErrorSpan" id="loginEmailError"><%- lang('login.loginEmailError') %></span>
-                <input id="loginUsername" class="loginField" type="text" placeholder="<%- lang('login.loginEmailPlaceholder') %>"/>
+                <input id="loginUsername" class="loginField" type="text" placeholder="Ely.by username or email"/>
             </div>
             <div class="loginFieldContainer">
                 <svg id="lockSVG" class="loginSVG" viewBox="40 32 60.36 70.43">
@@ -29,7 +29,7 @@
             </div>
             <div id="loginOptions">
                 <span class="loginSpanDim">
-                    <a href="<%- lang('login.loginForgotPasswordLink') %>"><%- lang('login.loginForgotPasswordText') %></a>
+                    <a href="https://account.ely.by/forgot-password">Forgot password?</a>
                 </span>
                 <label id="checkmarkContainer">
                     <input id="loginRememberOption" type="checkbox" checked>
@@ -54,10 +54,10 @@
             </button>
             <div id="loginDisclaimer">
                 <span class="loginSpanDim" id="loginRegisterSpan">
-                    <a href="<%- lang('login.loginNeedAccountLink') %>"><%- lang('login.loginNeedAccountText') %></a>
+                    <a href="https://ely.by/register">Don't have an account? Register on Ely.by</a>
                 </span>
-                <p class="loginDisclaimerText"><%- lang('login.loginPasswordDisclaimer1') %></p>
-                <p class="loginDisclaimerText"><%- lang('login.loginPasswordDisclaimer2', { appName: lang('app.title') }) %></p>
+                <p class="loginDisclaimerText">Sign in with your Ely.by account to play on Vault-Tec server.</p>
+                <p class="loginDisclaimerText">Your credentials are sent directly to Ely.by and never stored locally.</p>
             </div>
         </form>
     </div>
